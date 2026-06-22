@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document preserves the philosophy, context, current progress, and working conventions of the DevOps Engineering Journey.
+This document preserves the philosophy, context, current progress, repository structure, and working conventions of the DevOps Engineering Journey.
 
 Its purpose is to provide continuity across future conversations without requiring the complete chat history.
 
@@ -12,7 +12,7 @@ This document is intended for both the mentor (ChatGPT) and Future Shalki.
 
 # Vision
 
-Build deep expertise in DevOps, Platform Engineering, Cloud, and modern software infrastructure while developing the mindset, engineering principles, and decision-making abilities expected of senior engineers and architects.
+Build deep expertise in DevOps, Platform Engineering, Cloud, AI Infrastructure, Kubernetes, and modern software engineering while developing the mindset, engineering principles, and decision-making abilities expected of senior engineers and architects.
 
 The objective extends beyond learning tools—it focuses on understanding systems, reasoning about trade-offs, and building engineering intuition that remains valuable for years.
 
@@ -48,6 +48,18 @@ Recruiters and interviewers are considered a secondary audience for selected art
 
 The repository should evolve into a long-term engineering handbook rather than a collection of learning notes.
 
+GitHub serves as the canonical source of truth for the project.
+
+---
+
+# Repository
+
+GitHub Repository
+
+https://github.com/Shalki90/devops-journey
+
+Git operations use SSH authentication.
+
 ---
 
 # Documentation Architecture
@@ -56,6 +68,7 @@ The repository should evolve into a long-term engineering handbook rather than a
 
 - PROJECT_CONTEXT.md
 - README.md
+- CHANGELOG.md
 
 ## docs/
 
@@ -67,16 +80,27 @@ The repository should evolve into a long-term engineering handbook rather than a
 - DICTIONARY.md
 - ANALOGIES.md
 - AI_IN_PRACTICE.md
-- QUESTIONS_PARKED.md
 - PARKING_LOT.md
 
 ## docs/curriculum/
 
 One document per learning phase.
 
+## docs/analogies/
+
+One analogy document per engineering domain.
+
 ## session-notes/
 
 One summary document per completed learning session.
+
+## labs/
+
+Hands-on labs completed throughout the roadmap.
+
+## projects/
+
+Projects built during the roadmap.
 
 ---
 
@@ -88,11 +112,15 @@ During learning:
 - 🏡 Useful analogies are added to Analogies.
 - 💡 Timeless engineering lessons are added to Engineering Principles.
 - 🤖 Real-world AI implementations are added to AI in Practice.
-- ❓ Deferred technical questions are added to Questions Parked.
+- ❓ Deferred technical questions are added to Parking Lot.
 
 Documentation should support learning rather than interrupt it.
 
 Reference documents are updated incrementally throughout the journey.
+
+Session notes summarize learning sessions.
+
+Reference documents capture long-term knowledge.
 
 ---
 
@@ -100,20 +128,55 @@ Reference documents are updated incrementally throughout the journey.
 
 ## Phase Status
 
-- ✅ Phase 0 — Engineering OS (Completed)
-- 🟡 Phase 1 — Internet & Networking Fundamentals (In Progress)
+- ✅ Phase 00 — Engineering OS
+- 🟡 Phase 01 — Internet & Networking Fundamentals (Final hands-on labs in progress)
+- ⬜ Phase 02 — Git & Version Control
+- ⬜ Remaining phases not yet started
 
 ---
 
-# Parking Lot
+# Recent Milestones
 
-Deferred ideas and future documentation are maintained in:
+Completed:
 
-`docs/PARKING_LOT.md`
+- Engineering OS established.
+- Documentation architecture finalized.
+- Phase 01 conceptual networking completed.
+- Networking analogies library created.
+- Engineering principles library established.
+- AI in Practice documentation established.
+- Session documentation standardized.
+- Local Git repository initialized.
+- GitHub repository created.
+- SSH authentication configured.
+- Initial repository successfully pushed to GitHub.
 
-Technical questions that will be answered later are maintained separately in:
+---
 
-`docs/QUESTIONS_PARKED.md`
+# Mentorship Style
+
+The learning sessions follow a consistent structure.
+
+1. Important DevOps / Cloud / AI Infrastructure news.
+2. Complete planned hands-on work.
+3. Update documentation.
+4. Commit changes.
+5. Push to GitHub.
+6. Review repository quality.
+7. Begin the next planned topic.
+
+Preference is given to understanding systems rather than completing topics quickly.
+
+---
+
+# Working Conventions
+
+- Use GitHub as the primary repository.
+- Keep documentation synchronized with learning progress.
+- Avoid redesigning repository structure unless explicitly requested.
+- Prefer improving existing documents over creating new ones.
+- Build reusable engineering knowledge instead of session-specific notes.
+- Every hands-on lab should reinforce conceptual understanding.
 
 ---
 
@@ -121,32 +184,49 @@ Technical questions that will be answered later are maintained separately in:
 
 When continuing this mentorship in a new conversation:
 
-1. Read `PROJECT_CONTEXT.md` first.
-2. Review the latest session note.
-3. Review `docs/ROADMAP.md`.
-4. Review `docs/CURRICULUM.md`.
-5. Continue from the current phase without redesigning the learning system unless explicitly requested.
+1. Read PROJECT_CONTEXT.md.
+2. Review the latest Session Note.
+3. Review docs/ROADMAP.md.
+4. Review docs/CURRICULUM.md.
+5. Continue from the current phase.
 
-Assume that the documentation architecture and learning philosophy have already been established.
+Assume the Engineering OS, documentation architecture, repository conventions, and learning philosophy have already been established.
+
+Do not redesign the repository unless explicitly requested.
 
 ---
 
 # Suggested Opening Prompt
 
-```text
 We are continuing the DevOps Engineering Journey documented in this repository.
 
-Please use PROJECT_CONTEXT.md as the primary source of context.
+Repository:
+https://github.com/Shalki90/devops-journey
 
-Assume the Engineering OS, documentation architecture, and learning philosophy have already been established.
+Please begin by reading:
 
-Review the latest session note to identify the current progress and continue the mentorship from that point without redesigning the repository unless explicitly requested.
+1. PROJECT_CONTEXT.md
+2. Latest session note
+3. docs/ROADMAP.md
+4. docs/CURRICULUM.md
 
-Continue following the established documentation workflow by identifying additions to the Dictionary, Analogies, Engineering Principles, AI in Practice, and Questions Parked whenever appropriate.
-```
+Assume the Engineering OS, documentation architecture, repository conventions, and learning philosophy have already been established.
+
+Continue the mentorship from the current phase without redesigning the repository.
+
+When appropriate, recommend updates to:
+
+- Dictionary
+- Analogies
+- Engineering Principles
+- AI in Practice
+- Parking Lot
+- Curriculum
+
+Always keep documentation synchronized with learning.
 
 ---
 
-Version: 0.1
+Version: 0.2
 
 Status: Living Document
