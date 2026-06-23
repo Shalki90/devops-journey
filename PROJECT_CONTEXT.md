@@ -22,17 +22,17 @@ The objective extends beyond learning tools—it focuses on understanding system
 
 The learning journey follows these principles:
 
-- Foundations before complexity.
-- Understand before memorizing.
-- Concepts before tools.
-- Progressive disclosure.
-- Challenge ideas before accepting them.
-- Design before implementation.
-- Continuous refinement.
-- Build to reinforce understanding.
-- Learn how modern AI systems apply engineering concepts.
-- Every document has a single responsibility.
-- No empty artifacts.
+* Foundations before complexity.
+* Understand before memorizing.
+* Concepts before tools.
+* Progressive disclosure.
+* Challenge ideas before accepting them.
+* Design before implementation.
+* Continuous refinement.
+* Build to reinforce understanding.
+* Learn how modern AI systems apply engineering concepts.
+* Every document has a single responsibility.
+* No empty artifacts.
 
 ---
 
@@ -56,7 +56,9 @@ GitHub serves as the canonical source of truth for the project.
 
 GitHub Repository
 
+```text
 https://github.com/Shalki90/devops-journey
+```
 
 Git operations use SSH authentication.
 
@@ -66,21 +68,21 @@ Git operations use SSH authentication.
 
 ## Root
 
-- PROJECT_CONTEXT.md
-- README.md
-- CHANGELOG.md
+* PROJECT_CONTEXT.md
+* README.md
+* CHANGELOG.md
 
 ## docs/
 
-- ENGINEERING_CHARTER.md
-- ROADMAP.md
-- CURRICULUM.md
-- LEARNING_PRINCIPLES.md
-- ENGINEERING_PRINCIPLES.md
-- DICTIONARY.md
-- ANALOGIES.md
-- AI_IN_PRACTICE.md
-- PARKING_LOT.md
+* ENGINEERING_CHARTER.md
+* ROADMAP.md
+* CURRICULUM.md
+* LEARNING_PRINCIPLES.md
+* ENGINEERING_PRINCIPLES.md
+* DICTIONARY.md
+* ANALOGIES.md
+* AI_IN_PRACTICE.md
+* PARKING_LOT.md
 
 ## docs/curriculum/
 
@@ -108,11 +110,11 @@ Projects built during the roadmap.
 
 During learning:
 
-- 📖 New engineering terms are added to the Dictionary.
-- 🏡 Useful analogies are added to Analogies.
-- 💡 Timeless engineering lessons are added to Engineering Principles.
-- 🤖 Real-world AI implementations are added to AI in Practice.
-- ❓ Deferred technical questions are added to Parking Lot.
+* 📖 New engineering terms are added to the Dictionary.
+* 🏡 Useful analogies are added to Analogies.
+* 💡 Timeless engineering lessons are added to Engineering Principles.
+* 🤖 Real-world AI implementations are added to AI in Practice.
+* ❓ Deferred technical questions are added to Parking Lot.
 
 Documentation should support learning rather than interrupt it.
 
@@ -128,10 +130,10 @@ Reference documents capture long-term knowledge.
 
 ## Phase Status
 
-- ✅ Phase 00 — Engineering OS
-- 🟡 Phase 01 — Internet & Networking Fundamentals (Final hands-on labs in progress)
-- ⬜ Phase 02 — Git & Version Control
-- ⬜ Remaining phases not yet started
+* ✅ Phase 00 — Engineering OS
+* ✅ Phase 01 — Internet & Networking Fundamentals
+* 🟡 Phase 02 — Git & Version Control (Next Phase)
+* ⬜ Remaining phases not yet started
 
 ---
 
@@ -139,17 +141,19 @@ Reference documents capture long-term knowledge.
 
 Completed:
 
-- Engineering OS established.
-- Documentation architecture finalized.
-- Phase 01 conceptual networking completed.
-- Networking analogies library created.
-- Engineering principles library established.
-- AI in Practice documentation established.
-- Session documentation standardized.
-- Local Git repository initialized.
-- GitHub repository created.
-- SSH authentication configured.
-- Initial repository successfully pushed to GitHub.
+* Engineering OS established.
+* Documentation architecture finalized.
+* Phase 01 conceptual networking completed.
+* Phase 01 hands-on networking labs completed.
+* Wireshark packet analysis completed.
+* Networking analogies library created.
+* Engineering principles library established.
+* AI in Practice documentation established.
+* Session documentation standardized.
+* Local Git repository initialized.
+* GitHub repository created.
+* SSH authentication configured.
+* Initial repository successfully pushed to GitHub.
 
 ---
 
@@ -161,7 +165,7 @@ The learning sessions follow a consistent structure.
 2. Complete planned hands-on work.
 3. Update documentation.
 4. Commit changes.
-5. Push to GitHub.
+5. Push changes to GitHub.
 6. Review repository quality.
 7. Begin the next planned topic.
 
@@ -171,12 +175,32 @@ Preference is given to understanding systems rather than completing topics quick
 
 # Working Conventions
 
-- Use GitHub as the primary repository.
-- Keep documentation synchronized with learning progress.
-- Avoid redesigning repository structure unless explicitly requested.
-- Prefer improving existing documents over creating new ones.
-- Build reusable engineering knowledge instead of session-specific notes.
-- Every hands-on lab should reinforce conceptual understanding.
+* Use GitHub as the primary repository.
+* Keep documentation synchronized with learning progress.
+* Avoid redesigning repository structure unless explicitly requested.
+* Prefer improving existing documents over creating new ones.
+* Build reusable engineering knowledge instead of session-specific notes.
+* Every hands-on lab should reinforce conceptual understanding.
+
+---
+
+# Next Planned Work
+
+## Immediate Next Phase
+
+Phase 02 — Git & Version Control
+
+Topics expected:
+
+* Why Version Control Exists
+* Git Fundamentals
+* Repository Structure
+* Commits
+* Branches
+* Merging
+* Conflict Resolution
+* Remote Repositories
+* GitHub Workflows
 
 ---
 
@@ -201,6 +225,7 @@ Do not redesign the repository unless explicitly requested.
 We are continuing the DevOps Engineering Journey documented in this repository.
 
 Repository:
+
 https://github.com/Shalki90/devops-journey
 
 Please begin by reading:
@@ -216,17 +241,17 @@ Continue the mentorship from the current phase without redesigning the repositor
 
 When appropriate, recommend updates to:
 
-- Dictionary
-- Analogies
-- Engineering Principles
-- AI in Practice
-- Parking Lot
-- Curriculum
+* Dictionary
+* Analogies
+* Engineering Principles
+* AI in Practice
+* Parking Lot
+* Curriculum
 
 Always keep documentation synchronized with learning.
 
 ---
 
-Version: 0.2
+Version: 0.3
 
 Status: Living Document

@@ -21,6 +21,10 @@ The goal is to build intuitive understanding through simple real-world compariso
 | Protocol | Two people agreeing to speak the same language before starting a conversation. | Illustrates why communication requires agreed rules. | Networking |
 | HTTP | A conversation in a public place where anyone nearby can overhear. | Demonstrates that communication is readable during transmission. | Networking |
 | HTTPS | A private conversation that outsiders cannot understand. | Explains encrypted communication over the Internet. | Networking |
+| Packet Capture | Security Camera Footage | Allows engineers to observe what actually happened instead of relying on assumptions or second-hand reports. | Observability |
+| Wireshark | Traffic Control Room Monitor | Provides visibility into the movement of packets across the network in real time. | Observability |
+| TLS Encryption | Sealed Envelope | The envelope can be delivered and routed using visible address information, but only the intended recipient can read the contents. | Networking |
+| Packet Headers | Shipping Label | Contains routing information needed for delivery even when the package contents remain hidden. | Networking |
 | Public Key Cryptography | A public mailbox where anyone can drop a letter, but only the owner can unlock and read it. | Explains how public and private keys work together. | Networking |
 | LAN (Private Network) | Apartment Building | Multiple devices communicate within a private environment before reaching the Internet. | Networking |
 | Public IP Address | Building Address | Represents the globally reachable address of a private network. | Networking |
@@ -68,6 +72,6 @@ The goal is to build intuitive understanding through simple real-world compariso
 
 ---
 
-Version: 0.3
+Version: 0.4
 
 Status: Living Document

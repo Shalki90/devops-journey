@@ -21,6 +21,7 @@ These principles are independent of any specific technology and are intended to 
 | Redundancy | Critical systems should avoid single points of failure by providing multiple components that can continue serving requests if one component becomes unavailable. | Improves reliability, fault tolerance, and service availability by eliminating single points of failure. | Session 03 - Networking |
 | Separate Naming from Routing | DNS resolves names into IP addresses, while routers determine how packets reach those IP addresses. | Separating responsibilities keeps the Internet simpler, scalable, and easier to maintain. | Session 03 - Networking |
 | Layered Problem Solving | Troubleshoot systems in dependency order by verifying lower layers before higher layers. | Reduces troubleshooting time by identifying failures systematically instead of guessing. | Session 03 - Networking |
+| Visibility Enables Understanding | Systems become easier to understand, troubleshoot, and improve when their behavior can be directly observed rather than inferred. | Observability reduces assumptions and allows engineers to validate how systems actually behave. | Phase 01 - Wireshark |
 | End-to-End Identification | Every network connection must be uniquely identifiable using source and destination information. | Prevents ambiguity when multiple simultaneous communications exist between systems. | Phase 01 - TCP Connections |
 | Separation of Responsibilities | A listening socket accepts new connections, while each established connection handles communication with a single client. | Improves scalability, simplifies system design, and allows servers to serve many clients simultaneously. | Phase 01 - TCP Connections |
 | Abstraction | Hide implementation details behind a stable interface so consumers remain unaffected by internal changes. | Allows systems to evolve without breaking clients and reduces coupling between components. | Phase 01 - Reverse Proxy |
@@ -43,6 +44,6 @@ These principles are independent of any specific technology and are intended to 
 
 ---
 
-Version: 0.3
+Version: 0.4
 
 Status: Living Document
