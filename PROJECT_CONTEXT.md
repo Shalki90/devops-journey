@@ -132,7 +132,7 @@ Reference documents capture long-term knowledge.
 
 * ✅ Phase 00 — Engineering OS
 * ✅ Phase 01 — Internet & Networking Fundamentals
-* 🟡 Phase 02 — Git & Version Control (Next Phase)
+* 🟡 Phase 02 — Git & Version Control (In Progress)
 * ⬜ Remaining phases not yet started
 
 ---
@@ -154,6 +154,16 @@ Completed:
 * GitHub repository created.
 * SSH authentication configured.
 * Initial repository successfully pushed to GitHub.
+* Git fundamentals introduced.
+* Working Directory, Staging Area, Local Repository, and Remote Repository understood.
+* Git commit lifecycle completed.
+* Git history inspection completed.
+* Branch creation and branch isolation demonstrated.
+* Fast-forward merge demonstrated.
+* Merge conflict creation and resolution completed.
+* First merge commit created.
+* Push, Fetch, and Pull concepts introduced.
+* Remote tracking branch concepts introduced.
 
 ---
 
@@ -190,17 +200,59 @@ Preference is given to understanding systems rather than completing topics quick
 
 Phase 02 — Git & Version Control
 
-Topics expected:
+Completed:
 
 * Why Version Control Exists
 * Git Fundamentals
 * Repository Structure
+* Working Directory
+* Staging Area
+* Local Repository
+* Remote Repository
 * Commits
 * Branches
 * Merging
+* Merge Conflicts
 * Conflict Resolution
-* Remote Repositories
-* GitHub Workflows
+* Push
+* Fetch
+* Pull
+
+Remaining:
+
+* GitHub Pull Request Workflow
+* Remote Collaboration Model
+* Tracking Branches
+* git revert
+* git reset
+* git stash
+* Advanced Git concepts (optional)
+
+---
+
+# Career Target
+
+Primary Target Role:
+
+* Platform Engineer
+
+Secondary Paths:
+
+* Site Reliability Engineer (SRE)
+* DevOps Engineer
+* AI Infrastructure Engineer
+
+Current Compensation:
+
+* ~20 LPA
+
+Target Timeline:
+
+* Begin interviewing by October.
+
+Long-Term Compensation Goal:
+
+* 30–40+ LPA through demonstrated engineering capability, projects, infrastructure knowledge, and strong interview performance.
 
 ---
 
@@ -252,6 +304,6 @@ Always keep documentation synchronized with learning.
 
 ---
 
-Version: 0.3
+Version: 0.4
 
 Status: Living Document

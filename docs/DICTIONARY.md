@@ -34,6 +34,33 @@ The objective is to understand concepts rather than memorize definitions. Entrie
 | Private Key | A secret key used to decrypt information encrypted with its matching public key. | Networking |
 | Port | A logical endpoint that directs network traffic to a specific application. | Networking |
 | Well-known Ports | Reserved ports (0–1023) commonly assigned to standard Internet services. | Networking |
+| Version Control | A system that tracks changes to files over time and preserves their history. | Git |
+| Git | A distributed version control system that tracks changes and manages code history. | Git |
+| Repository | A storage location containing files and their complete change history. | Git |
+| Working Directory | The current files and folders being actively edited on the local machine. | Git |
+| Staging Area | A preparation area where selected changes are gathered before creating a commit. | Git |
+| Local Repository | The local database that stores commits and project history on a machine. | Git |
+| Remote Repository | A repository hosted elsewhere, typically used for collaboration and backup. | Git |
+| Commit | A saved snapshot of tracked changes at a specific point in time. | Git |
+| Commit Hash | A unique identifier assigned to a commit. | Git |
+| Branch | An independent line of development that allows work to be performed safely without affecting other branches. | Git |
+| Main Branch | The primary branch that represents the accepted project history. | Git |
+| HEAD | A pointer indicating the currently checked-out commit or branch. | Git |
+| Merge | The process of combining changes from one branch into another. | Git |
+| Fast-Forward Merge | A merge where Git simply moves a branch pointer forward because no divergent history exists. | Git |
+| Merge Commit | A commit created to combine two independent histories into one. | Git |
+| Merge Conflict | A situation where Git cannot automatically determine how competing changes should be combined. | Git |
+| Remote Tracking Branch | A local reference that represents the current known state of a branch on a remote repository. | Git |
+| origin | The default name Git uses to refer to a remote repository. | Git |
+| origin/main | The local reference representing the last known state of the remote main branch. | Git |
+| git add | A command that moves changes from the Working Directory to the Staging Area. | Git |
+| git commit | A command that moves staged changes into the Local Repository as a new commit. | Git |
+| git push | A command that publishes local commits to a remote repository. | Git |
+| git fetch | A command that updates knowledge of the remote repository without changing local branches. | Git |
+| git pull | A command that fetches remote changes and integrates them into the current local branch. | Git |
+| git restore | A command used to discard changes from the Working Directory. | Git |
+| git restore --staged | A command used to remove changes from the Staging Area while keeping them in the Working Directory. | Git |
+| Tracking Branch | A local branch configured to follow a corresponding branch on a remote repository. | Git |
 
 ---
 
@@ -46,6 +73,6 @@ The objective is to understand concepts rather than memorize definitions. Entrie
 
 ---
 
-Version: 0.1
+Version: 0.2
 
 Status: Living Document
