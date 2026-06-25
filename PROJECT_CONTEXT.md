@@ -132,7 +132,8 @@ Reference documents capture long-term knowledge.
 
 * ✅ Phase 00 — Engineering OS
 * ✅ Phase 01 — Internet & Networking Fundamentals
-* 🟡 Phase 02 — Git & Version Control (In Progress)
+* ✅ Phase 02 — Git & Version Control
+* 🟡 Phase 03 — Linux Fundamentals (Next Phase)
 * ⬜ Remaining phases not yet started
 
 ---
@@ -154,7 +155,7 @@ Completed:
 * GitHub repository created.
 * SSH authentication configured.
 * Initial repository successfully pushed to GitHub.
-* Git fundamentals introduced.
+* Git fundamentals completed.
 * Working Directory, Staging Area, Local Repository, and Remote Repository understood.
 * Git commit lifecycle completed.
 * Git history inspection completed.
@@ -162,8 +163,15 @@ Completed:
 * Fast-forward merge demonstrated.
 * Merge conflict creation and resolution completed.
 * First merge commit created.
-* Push, Fetch, and Pull concepts introduced.
-* Remote tracking branch concepts introduced.
+* Push, Fetch, and Pull concepts completed.
+* Remote tracking branch concepts completed.
+* GitHub collaboration workflow understood.
+* Pull Request workflow completed.
+* git revert completed.
+* git reset completed.
+* git stash completed.
+* Git analogy challenge completed.
+* Phase 02 officially completed.
 
 ---
 
@@ -198,35 +206,22 @@ Preference is given to understanding systems rather than completing topics quick
 
 ## Immediate Next Phase
 
-Phase 02 — Git & Version Control
+Phase 03 — Linux Fundamentals
 
-Completed:
+Expected Topics:
 
-* Why Version Control Exists
-* Git Fundamentals
-* Repository Structure
-* Working Directory
-* Staging Area
-* Local Repository
-* Remote Repository
-* Commits
-* Branches
-* Merging
-* Merge Conflicts
-* Conflict Resolution
-* Push
-* Fetch
-* Pull
-
-Remaining:
-
-* GitHub Pull Request Workflow
-* Remote Collaboration Model
-* Tracking Branches
-* git revert
-* git reset
-* git stash
-* Advanced Git concepts (optional)
+* Why Linux Dominates Infrastructure
+* Linux Architecture
+* Filesystem Hierarchy
+* Files and Directories
+* Permissions
+* Users and Groups
+* Processes
+* Services
+* Package Management
+* Logs
+* Shell Fundamentals
+* Essential Linux Commands
 
 ---
 
@@ -304,6 +299,6 @@ Always keep documentation synchronized with learning.
 
 ---
 
-Version: 0.4
+Version: 0.5
 
 Status: Living Document

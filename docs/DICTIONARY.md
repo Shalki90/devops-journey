@@ -61,6 +61,20 @@ The objective is to understand concepts rather than memorize definitions. Entrie
 | git restore | A command used to discard changes from the Working Directory. | Git |
 | git restore --staged | A command used to remove changes from the Staging Area while keeping them in the Working Directory. | Git |
 | Tracking Branch | A local branch configured to follow a corresponding branch on a remote repository. | Git |
+| Pull Request (PR)      | A request to merge changes from one branch into another after review and validation.                                                   | Git    |
+| Code Review            | The process of examining proposed changes before they are merged into a shared branch.                                                 | Git    |
+| Collaboration Workflow | A structured process that allows multiple developers to work safely on the same repository.                                            | Git    |
+| Conflict Resolution    | The process of manually deciding how competing changes should be combined when Git cannot determine the correct outcome automatically. | Git    |
+| git revert             | A command that creates a new commit which reverses the changes introduced by an earlier commit.                                        | Git    |
+| git reset              | A command that moves branch history backward, allowing commits to be removed or rewritten before sharing.                              | Git    |
+| git stash              | A command that temporarily stores unfinished work so another task can be performed without creating a commit.                          | Git    |
+| Stash                  | A temporary storage area used to save unfinished changes outside the current Working Directory.                                        | Git    |
+| Shared History         | Commit history that has already been published and may be used by other collaborators.                                                 | Git    |
+| Private History        | Commit history that exists only locally and can be safely rewritten if necessary.                                                      | Git    |
+| Diverged Branches      | Branches that contain different commits and therefore require a true merge rather than a fast-forward update.                          | Git    |
+| GitHub                 | A cloud-hosted platform used for storing, collaborating on, and managing Git repositories.                                             | Git    |
+| Repository History     | The complete record of commits, branches, merges, and changes within a repository.                                                     | Git    |
+
 
 ---
 
@@ -73,6 +87,6 @@ The objective is to understand concepts rather than memorize definitions. Entrie
 
 ---
 
-Version: 0.2
+Version: 0.3
 
 Status: Living Document

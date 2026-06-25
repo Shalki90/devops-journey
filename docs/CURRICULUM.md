@@ -15,8 +15,8 @@ The curriculum may evolve as better learning sequences are discovered.
 | Phase | Topic | Document | Status |
 |--------|-------|----------|--------|
 | 0 | Engineering OS | phase-0-engineering-os.md | ✅ Completed |
-| 1 | Internet & Networking Fundamentals | phase-1-networking.md | 🟡 In Progress |
-| 2 | Git & Version Control | phase-2-git.md | ⬜ Not Started |
+| 1 | Internet & Networking Fundamentals | phase-1-networking.md | ✅ Completed |
+| 2 | Git & Version Control | phase-2-git.md | ✅ Completed |
 | 3 | Linux Fundamentals | phase-3-linux.md | ⬜ Not Started |
 | 4 | Docker | phase-4-docker.md | ⬜ Not Started |
 | 5 | Shell Scripting | phase-5-shell-scripting.md | ⬜ Not Started |

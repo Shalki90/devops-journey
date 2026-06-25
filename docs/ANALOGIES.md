@@ -60,6 +60,32 @@ The goal is to build intuitive understanding through simple real-world compariso
 | HTTP Response | Doctor providing treatment and instructions | The server returns the requested result along with status information. | Networking |
 | Client Ephemeral Port | Temporary visitor badge | Assigned only for the duration of a conversation and changes with each new visit. | Networking |
 | Long-Running Server | Reception desk that never closes | The server remains available to accept new clients even after previous conversations end. | Networking |
+| Version Control        | Successive editions of a book                          | Every change is preserved and can be reviewed or restored later.               | Git    |
+| Repository             | Library Archive                                        | Stores both the current version and every historical version of the book.      | Git    |
+| Working Directory      | Author's Desk                                          | The place where active writing and editing occur.                              | Git    |
+| Staging Area           | Editor's Review Tray                                   | Changes are gathered and reviewed before being officially recorded.            | Git    |
+| Commit                 | Publishing a New Edition                               | Creates a permanent snapshot of the work at a specific moment.                 | Git    |
+| Commit History         | Edition Timeline                                       | Shows how the project evolved over time.                                       | Git    |
+| Branch                 | Private Draft Copy of a Book                           | Allows experimentation without affecting the official version.                 | Git    |
+| Main Branch            | Official Published Book                                | Represents the accepted version of the project.                                | Git    |
+| Feature Branch         | Draft Chapter Under Development                        | New work can proceed safely without affecting the published edition.           | Git    |
+| Merge                  | Inserting an Approved Chapter into the Official Book   | Combines work from one branch into another.                                    | Git    |
+| Fast-Forward Merge     | Updating the Book with a New Chapter Already Approved  | No competing history exists, so the official copy simply moves forward.        | Git    |
+| Merge Conflict         | Two Editors Rewriting the Same Paragraph Differently   | Git cannot decide which version is correct and requires human judgment.        | Git    |
+| Conflict Resolution    | Chief Editor Choosing Final Wording                    | A person must decide how competing changes should be combined.                 | Git    |
+| Remote Repository      | Publishing House Master Archive                        | Central location where everyone shares and retrieves official copies.          | Git    |
+| Push                   | Sending Your Latest Edition to the Publishing House    | Publishes local commits to the shared repository.                              | Git    |
+| Fetch                  | Checking the Publishing House Catalog for New Editions | Learns about remote updates without changing your local copy.                  | Git    |
+| Pull                   | Bringing the Latest Published Edition Home             | Retrieves and integrates remote changes into the local branch.                 | Git    |
+| Pull Request (PR)      | Submitting a Draft for Editorial Review                | Proposed changes are reviewed before publication.                              | Git    |
+| Code Review            | Editorial Review Process                               | Another person validates quality before changes become official.               | Git    |
+| git revert             | Publishing a Correction Chapter                        | Creates a new change that reverses an earlier mistake without erasing history. | Git    |
+| git reset              | Throwing Away an Unpublished Draft                     | Removes history that has not yet been shared.                                  | Git    |
+| git stash              | Putting an Unfinished Chapter in a Drawer              | Temporarily saves work so attention can shift elsewhere.                       | Git    |
+| Shared History         | Books Already Distributed to Readers                   | History should not be rewritten because others depend on it.                   | Git    |
+| Private History        | Personal Draft Notebook                                | History can be rewritten safely because nobody else has seen it.               | Git    |
+| GitHub Workflow        | Author → Editor → Publisher                            | Work is drafted, reviewed, approved, and then published.                       | Git    |
+| Remote Tracking Branch | Last Known Catalog Entry from the Publishing House     | Represents Git's latest knowledge of the remote repository state.              | Git    |
 
 ---
 
@@ -72,6 +98,6 @@ The goal is to build intuitive understanding through simple real-world compariso
 
 ---
 
-Version: 0.4
+Version: 0.5
 
 Status: Living Document

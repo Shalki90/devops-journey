@@ -95,6 +95,26 @@ Hands-on projects will be added throughout this journey, with each project desig
 
 ---
 
+## Current Progress
+
+| Phase                                         | Status      |
+| --------------------------------------------- | ----------- |
+| Phase 00 — Engineering OS                     | ✅ Completed |
+| Phase 01 — Internet & Networking Fundamentals | ✅ Completed |
+| Phase 02 — Git & Version Control              | ✅ Completed |
+| Phase 03 — Linux Fundamentals                 | ⏳ Next      |
+
+Current Focus:
+
+```text
+Internet & Networking
+        ↓
+Git & Version Control
+        ↓
+Linux Fundamentals (Next)
+```
+
+
 Version: 0.1
 
 Status: Living Document
