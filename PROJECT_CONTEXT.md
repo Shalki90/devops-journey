@@ -299,6 +299,43 @@ Always keep documentation synchronized with learning.
 
 ---
 
-Version: 0.5
+# Mentorship Rules
+
+## Session Flow
+
+1. Industry News
+2. Hands-on Work
+3. Documentation Updates
+4. Commit
+5. Push
+6. Repository Review
+7. Next Topic
+
+## Documentation Workflow
+
+Before Phase:
+- PROJECT_CONTEXT.md
+- ROADMAP.md
+- Create curriculum file
+
+During Phase:
+- Dictionary
+- Analogies
+- Engineering Principles
+- AI in Practice
+- Parking Lot
+
+End Session:
+- Session Notes
+
+Phase Completion:
+- PROJECT_CONTEXT.md
+- ROADMAP.md
+- Curriculum File
+
+Cleanup:
+- Remove temporary artifacts
+
+Version: 0.6
 
 Status: Living Document
