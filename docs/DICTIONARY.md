@@ -74,6 +74,24 @@ The objective is to understand concepts rather than memorize definitions. Entrie
 | Diverged Branches      | Branches that contain different commits and therefore require a true merge rather than a fast-forward update.                          | Git    |
 | GitHub                 | A cloud-hosted platform used for storing, collaborating on, and managing Git repositories.                                             | Git    |
 | Repository History     | The complete record of commits, branches, merges, and changes within a repository.                                                     | Git    |
+| Operating System (OS)                        | System software that manages hardware resources and provides common services for applications.                                               | Linux  |
+| Linux                                        | An operating system built around the Linux kernel, commonly combined with GNU utilities to form a complete operating system.                 | Linux  |
+| Kernel                                       | The core component of an operating system that manages hardware resources and provides services to applications through system calls.        | Linux  |
+| GNU                                          | A collection of user-space tools and utilities that make a Linux system usable by providing commands, libraries, and standard programs.      | Linux  |
+| Shell                                        | A command interpreter that allows users to interact with the operating system.                                                               | Linux  |
+| Bash (Bourne Again Shell)                    | A widely used implementation of the Unix shell that interprets user commands and executes programs.                                          | Linux  |
+| Linux Distribution                           | A packaged operating system combining the Linux kernel, GNU utilities, package manager, and additional software into a complete system.      | Linux  |
+| Ubuntu                                       | A Debian-based Linux distribution focused on ease of use and broad community support.                                                        | Linux  |
+| Rocky Linux                                  | A community-supported enterprise Linux distribution designed for long-term stability and compatibility with Red Hat Enterprise Linux (RHEL). | Linux  |
+| BIOS (Basic Input/Output System)             | Firmware that initializes hardware during startup and locates a bootable device.                                                             | Linux  |
+| UEFI (Unified Extensible Firmware Interface) | Modern firmware that replaces BIOS and provides a standardized interface between hardware and the operating system during boot.              | Linux  |
+| Bootloader                                   | Software responsible for locating and loading the operating system kernel into memory during system startup.                                 | Linux  |
+| GRUB (GRand Unified Bootloader)              | A widely used Linux bootloader that loads the selected Linux kernel and initramfs into memory before transferring control.                   | Linux  |
+| initramfs (Initial RAM Filesystem)           | A temporary root filesystem loaded into RAM that prepares the system so the Linux kernel can access the real root filesystem.                | Linux  |
+| User Space                                   | The area where applications and user programs execute with limited privileges, requiring system calls to access hardware.                    | Linux  |
+| Kernel Space                                 | The protected memory region where the operating system kernel executes with full access to hardware and system resources.                    | Linux  |
+| System Call                                  | A controlled interface that allows applications in user space to request services from the Linux kernel.                                     | Linux  |
+| Device Driver                                | A software component that enables the kernel to communicate with a specific hardware device through a standardized interface.                | Linux  |
 
 
 ---

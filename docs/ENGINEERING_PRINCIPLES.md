@@ -31,6 +31,9 @@ These principles are independent of any specific technology and are intended to 
 | Stable Service Endpoints | Long-running services should expose stable endpoints while individual client interactions remain temporary. | Allows clients to reliably locate services while enabling the server to continuously accept new work. | Phase 01 - HTTP Servers |
 | Connection Lifecycle | Establish, use, and terminate connections as independent units of work rather than assuming communication is permanent. | Simplifies resource management, improves reliability, and enables systems to handle many independent interactions. | Phase 01 - HTTP Servers |
 | Stateless Request Handling | Whenever practical, treat each client request as independent of previous requests unless state is explicitly required. | Improves scalability, fault tolerance, and enables systems to distribute work across multiple servers. | Phase 01 - HTTP Servers |
+| Separation of Responsibilities                 | Complex systems are built by dividing responsibilities into independent components that work together.                                | Makes systems easier to build, debug, replace, and evolve.       | Linux Boot Process            |
+| Layered Architecture                           | Systems should be organized into layers where each layer provides services to the one above while hiding internal complexity.         | Reduces coupling and allows each layer to evolve independently.  | Linux Architecture            |
+| Stable Interfaces, Replaceable Implementations | Components should communicate through well-defined interfaces so implementations can change without affecting the rest of the system. | Enables flexibility, maintainability, and hardware independence. | System Calls & Device Drivers |
 
 ---
 

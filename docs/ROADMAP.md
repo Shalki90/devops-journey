@@ -63,7 +63,7 @@ Capstone Project
 | 0     | Engineering OS                     | ✅ Completed   |
 | 1     | Internet & Networking Fundamentals | ✅ Completed   |
 | 2     | Git & Version Control              | ✅ Completed   |
-| 3     | Linux Fundamentals                 | ⬜ Not Started |
+| 3     | Linux Fundamentals                 | 🟡 In Progress|
 | 4     | Docker                             | ⬜ Not Started |
 | 5     | Shell Scripting                    | ⬜ Not Started |
 | 6     | CI/CD                              | ⬜ Not Started |
@@ -86,7 +86,7 @@ Capstone Project
 
 ### Next Phase
 
-* Phase 03 — Linux Fundamentals
+* Phase 03 — Linux Fundamentals (In Progress)
 
 ---
 

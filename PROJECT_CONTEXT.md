@@ -133,7 +133,7 @@ Reference documents capture long-term knowledge.
 * ✅ Phase 00 — Engineering OS
 * ✅ Phase 01 — Internet & Networking Fundamentals
 * ✅ Phase 02 — Git & Version Control
-* 🟡 Phase 03 — Linux Fundamentals (Next Phase)
+* 🟡 Phase 03 — Linux Fundamentals (In Progress)
 * ⬜ Remaining phases not yet started
 
 ---
@@ -177,15 +177,15 @@ Completed:
 
 # Mentorship Style
 
-The learning sessions follow a consistent structure.
+Each learning session follows this structure:
 
-1. Important DevOps / Cloud / AI Infrastructure news.
-2. Complete planned hands-on work.
-3. Update documentation.
-4. Commit changes.
-5. Push changes to GitHub.
-6. Review repository quality.
-7. Begin the next planned topic.
+1. DevOps / Cloud / AI Infrastructure news discussion.
+2. Knowledge assessment for the upcoming topic.
+3. Update repository documentation required before the phase/topic.
+4. Learning session.
+5. Update learning documents during the phase as needed.
+6. End-of-session notes.
+7. Commit, push, and repository review.
 
 Preference is given to understanding systems rather than completing topics quickly.
 
@@ -208,21 +208,33 @@ Preference is given to understanding systems rather than completing topics quick
 
 Phase 03 — Linux Fundamentals
 
-Expected Topics:
+Progress:
 
-* Why Linux Dominates Infrastructure
-* Linux Architecture
-* Filesystem Hierarchy
-* Files and Directories
-* Permissions
-* Users and Groups
-* Processes
-* Services
-* Package Management
-* Logs
-* Shell Fundamentals
-* Essential Linux Commands
+Completed:
+- Linux architecture overview
+- GNU
+- Shell and Bash
+- Linux distributions
+- BIOS and UEFI
+- GRUB
+- initramfs
+- Kernel
+- User Space vs Kernel Space
+- System Calls
+- Device Drivers
 
+Upcoming:
+- Processes
+- Process Lifecycle
+- fork()
+- exec()
+- Scheduling
+- Memory Management
+- Filesystem
+- Services
+- Permissions
+- Users & Groups
+- Logs
 ---
 
 # Career Target
