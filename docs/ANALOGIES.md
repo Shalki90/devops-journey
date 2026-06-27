@@ -101,6 +101,21 @@ The goal is to build intuitive understanding through simple real-world compariso
 | User Space vs Kernel Space | Guests staying in the hotel versus the hotel management office.                                            | Guests (applications) have limited access, while management (kernel) has full authority over the hotel's operations.         | Linux       |
 | Single Responsibility      | Each relay runner performs only one task before handing over the baton.                                    | Demonstrates why Linux separates BIOS, GRUB, initramfs, Kernel, and systemd into independent stages.                         | Engineering |
 | Chicken-and-Egg Problem    | The hotel manager's keys are locked inside the hotel, but the manager needs those keys to enter the hotel. | Explains why initramfs is required before the kernel can access the real root filesystem.                                    | Engineering |
+| Program            | Recipe book stored in a kitchen                                                   | Exists but performs no work until someone starts cooking                                    | Linux  |
+| Process            | Chef actively preparing food                                                      | Demonstrates that execution begins only when work starts                                    | Linux  |
+| PID                | Employee ID card                                                                  | Every running employee has a unique identifier                                              | Linux  |
+| PPID               | Manager's employee ID                                                             | Shows who created or supervises a process                                                   | Linux  |
+| Process Tree       | Hotel organizational hierarchy                                                    | Illustrates parent-child relationships between processes                                    | Linux  |
+| Orphan Process     | Chef whose manager resigned and is reassigned to the hotel manager                | Explains why Linux adopts running processes instead of terminating them                     | Linux  |
+| Zombie Process     | Guest who has checked out but whose checkout paperwork has not yet been completed | Demonstrates a process that has finished execution but still occupies a process table entry | Linux  |
+| Foreground Process | Receptionist serving one customer                                                 | Shows exclusive interaction with one user at a time                                         | Linux  |
+| Background Process | Housekeeping cleaning rooms while reception continues serving guests              | Explains multitasking without blocking user interaction                                     | Linux  |
+| Terminal Ownership | Reception desk occupied by one customer                                           | Helps visualize why only one foreground process receives keyboard input                     | Linux  |
+| SIGINT             | Customer politely asking to stop the current service                              | Represents graceful interruption through Ctrl+C                                             | Linux  |
+| SIGTERM            | Hotel announcing closing time                                                     | Represents a graceful request to finish work before exiting                                 | Linux  |
+| SIGKILL            | Security immediately escorting a disruptive guest out                             | Demonstrates forceful termination without cleanup                                           | Linux  |
+| SIGSTOP            | Manager instructing staff to pause work temporarily                               | Explains intentional suspension of execution                                                | Linux  |
+| SIGCONT            | Manager instructing staff to resume work                                          | Demonstrates continuation of a previously paused process                                    | Linux  |
 
 ---
 

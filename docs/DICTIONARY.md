@@ -92,7 +92,31 @@ The objective is to understand concepts rather than memorize definitions. Entrie
 | Kernel Space                                 | The protected memory region where the operating system kernel executes with full access to hardware and system resources.                    | Linux  |
 | System Call                                  | A controlled interface that allows applications in user space to request services from the Linux kernel.                                     | Linux  |
 | Device Driver                                | A software component that enables the kernel to communicate with a specific hardware device through a standardized interface.                | Linux  |
-
+| Process                   | A running instance of a program managed by the Linux kernel.                                                 | Linux  |
+| Program                   | A passive executable file stored on disk that becomes a process when executed.                               | Linux  |
+| Process Lifecycle         | The sequence through which a program is loaded into memory, executed, managed, and terminated by the kernel. | Linux  |
+| PID (Process ID)          | A unique numerical identifier assigned to every running process.                                             | Linux  |
+| PPID (Parent Process ID)  | The Process ID of the process that created another process.                                                  | Linux  |
+| Process Tree              | A hierarchical structure showing parent-child relationships between processes.                               | Linux  |
+| Process State             | The current execution status of a process (Running, Sleeping, Stopped, Zombie, etc.).                        | Linux  |
+| Running (R)               | A process currently executing or waiting to be scheduled on the CPU.                                         | Linux  |
+| Sleeping (S)              | A process waiting for an event before continuing execution.                                                  | Linux  |
+| Uninterruptible Sleep (D) | A process waiting for critical hardware or I/O operations that cannot safely be interrupted.                 | Linux  |
+| Stopped (T)               | A process intentionally paused, usually by a signal such as SIGSTOP or Ctrl+Z.                               | Linux  |
+| Zombie (Z)                | A process that has completed execution but whose parent has not yet collected its exit status.               | Linux  |
+| Orphan Process            | A running process whose parent has terminated and has been adopted by systemd (PID 1).                       | Linux  |
+| Foreground Process        | The process that currently owns the terminal and receives user input directly.                               | Linux  |
+| Background Process        | A process that executes without owning the terminal, allowing the shell to continue accepting commands.      | Linux  |
+| Terminal Ownership        | The mechanism through which only one foreground process controls terminal input and output at a time.        | Linux  |
+| Signal                    | A software interrupt sent by the kernel or another process to control process behavior.                      | Linux  |
+| SIGINT                    | A signal sent by Ctrl+C requesting that a process interrupt its execution gracefully.                        | Linux  |
+| SIGTERM                   | A graceful termination signal requesting a process to shut down safely and perform cleanup.                  | Linux  |
+| SIGKILL                   | A non-maskable signal that immediately terminates a process without allowing cleanup.                        | Linux  |
+| SIGSTOP                   | A signal that immediately pauses a running process.                                                          | Linux  |
+| SIGCONT                   | A signal that resumes a previously stopped process.                                                          | Linux  |
+| jobs                      | A shell command that displays processes currently managed by the shell.                                      | Linux  |
+| fg                        | A shell command that moves a background or stopped job into the foreground.                                  | Linux  |
+| bg                        | A shell command that resumes a stopped process in the background.                                            | Linux  |
 
 ---
 

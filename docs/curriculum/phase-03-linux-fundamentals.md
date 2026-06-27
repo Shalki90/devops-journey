@@ -56,10 +56,10 @@ By the end of this phase, I should be able to:
 | ✅      | User Space vs Kernel Space         |
 | ✅      | System Calls                       |
 | ✅      | Device Drivers                     |
-| ⬜      | Processes                          |
-| ⬜      | Process Lifecycle                  |
-| ⬜      | PID                                |
-| ⬜      | PPID                               |
+| ✅      | Processes                          |
+| ✅      | Process Lifecycle                  |
+| ✅      | PID                                |
+| ✅      | PPID                               |
 | ⬜      | fork()                             |
 | ⬜      | exec()                             |
 | ⬜      | Process Scheduling                 |
@@ -89,8 +89,8 @@ By the end of this phase, I should be able to:
 | Status | Lab                          | Objective                                                |
 | ------ | ---------------------------- | -------------------------------------------------------- |
 | ⬜      | Linux Filesystem Exploration | Navigate and understand the Linux filesystem hierarchy.  |
-| ⬜      | Process Inspection           | Inspect running processes using `ps`, `top`, and `htop`. |
-| ⬜      | Process Management           | Manage processes using `kill`, `pkill`, and signals.     |
+| ✅      | Process Inspection           | Inspect running processes using `ps`, `top`, and `htop`. |
+| 🟨      | Process Management           | Manage processes using `kill`, `pkill`, and signals.     |
 | ⬜      | Memory Inspection            | Observe memory utilization and process memory usage.     |
 | ⬜      | Files & Directories          | Create, copy, move, and remove files and directories.    |
 | ⬜      | Permissions Lab              | Modify permissions using `chmod`.                        |
