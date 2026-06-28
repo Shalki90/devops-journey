@@ -60,62 +60,81 @@ The goal is to build intuitive understanding through simple real-world compariso
 | HTTP Response | Doctor providing treatment and instructions | The server returns the requested result along with status information. | Networking |
 | Client Ephemeral Port | Temporary visitor badge | Assigned only for the duration of a conversation and changes with each new visit. | Networking |
 | Long-Running Server | Reception desk that never closes | The server remains available to accept new clients even after previous conversations end. | Networking |
-| Version Control        | Successive editions of a book                          | Every change is preserved and can be reviewed or restored later.               | Git    |
-| Repository             | Library Archive                                        | Stores both the current version and every historical version of the book.      | Git    |
-| Working Directory      | Author's Desk                                          | The place where active writing and editing occur.                              | Git    |
-| Staging Area           | Editor's Review Tray                                   | Changes are gathered and reviewed before being officially recorded.            | Git    |
-| Commit                 | Publishing a New Edition                               | Creates a permanent snapshot of the work at a specific moment.                 | Git    |
-| Commit History         | Edition Timeline                                       | Shows how the project evolved over time.                                       | Git    |
-| Branch                 | Private Draft Copy of a Book                           | Allows experimentation without affecting the official version.                 | Git    |
-| Main Branch            | Official Published Book                                | Represents the accepted version of the project.                                | Git    |
-| Feature Branch         | Draft Chapter Under Development                        | New work can proceed safely without affecting the published edition.           | Git    |
-| Merge                  | Inserting an Approved Chapter into the Official Book   | Combines work from one branch into another.                                    | Git    |
+| Version Control        | Successive editions of a book     | Every change is preserved and can be reviewed or restored later.               | Git    |
+| Repository             | Library Archive                   | Stores both the current version and every historical version of the book.      | Git    |
+| Working Directory      | Author's Desk                     | The place where active writing and editing occur.         | Git    |
+| Staging Area           | Editor's Review Tray              | Changes are gathered and reviewed before being officially recorded.            | Git    |
+| Commit                 | Publishing a New Edition          | Creates a permanent snapshot of the work at a specific moment.                 | Git    |
+| Commit History         | Edition Timeline                  | Shows how the project evolved over time.                  | Git    |
+| Branch                 | Private Draft Copy of a Book      | Allows experimentation without affecting the official version.                 | Git    |
+| Main Branch            | Official Published Book           | Represents the accepted version of the project.           | Git    |
+| Feature Branch         | Draft Chapter Under Development   | New work can proceed safely without affecting the published edition.           | Git    |
+| Merge                  | Inserting an Approved Chapter into the Official Book   | Combines work from one branch into another.               | Git    |
 | Fast-Forward Merge     | Updating the Book with a New Chapter Already Approved  | No competing history exists, so the official copy simply moves forward.        | Git    |
 | Merge Conflict         | Two Editors Rewriting the Same Paragraph Differently   | Git cannot decide which version is correct and requires human judgment.        | Git    |
 | Conflict Resolution    | Chief Editor Choosing Final Wording                    | A person must decide how competing changes should be combined.                 | Git    |
-| Remote Repository      | Publishing House Master Archive                        | Central location where everyone shares and retrieves official copies.          | Git    |
-| Push                   | Sending Your Latest Edition to the Publishing House    | Publishes local commits to the shared repository.                              | Git    |
+| Remote Repository      | Publishing House Master Archive   | Central location where everyone shares and retrieves official copies.          | Git    |
+| Push                   | Sending Your Latest Edition to the Publishing House    | Publishes local commits to the shared repository.         | Git    |
 | Fetch                  | Checking the Publishing House Catalog for New Editions | Learns about remote updates without changing your local copy.                  | Git    |
 | Pull                   | Bringing the Latest Published Edition Home             | Retrieves and integrates remote changes into the local branch.                 | Git    |
-| Pull Request (PR)      | Submitting a Draft for Editorial Review                | Proposed changes are reviewed before publication.                              | Git    |
-| Code Review            | Editorial Review Process                               | Another person validates quality before changes become official.               | Git    |
-| git revert             | Publishing a Correction Chapter                        | Creates a new change that reverses an earlier mistake without erasing history. | Git    |
-| git reset              | Throwing Away an Unpublished Draft                     | Removes history that has not yet been shared.                                  | Git    |
-| git stash              | Putting an Unfinished Chapter in a Drawer              | Temporarily saves work so attention can shift elsewhere.                       | Git    |
+| Pull Request (PR)      | Submitting a Draft for Editorial Review                | Proposed changes are reviewed before publication.         | Git    |
+| Code Review            | Editorial Review Process          | Another person validates quality before changes become official.               | Git    |
+| git revert             | Publishing a Correction Chapter   | Creates a new change that reverses an earlier mistake without erasing history. | Git    |
+| git reset              | Throwing Away an Unpublished Draft                     | Removes history that has not yet been shared.             | Git    |
+| git stash              | Putting an Unfinished Chapter in a Drawer              | Temporarily saves work so attention can shift elsewhere.  | Git    |
 | Shared History         | Books Already Distributed to Readers                   | History should not be rewritten because others depend on it.                   | Git    |
-| Private History        | Personal Draft Notebook                                | History can be rewritten safely because nobody else has seen it.               | Git    |
-| GitHub Workflow        | Author → Editor → Publisher                            | Work is drafted, reviewed, approved, and then published.                       | Git    |
+| Private History        | Personal Draft Notebook           | History can be rewritten safely because nobody else has seen it.               | Git    |
+| GitHub Workflow        | Author → Editor → Publisher       | Work is drafted, reviewed, approved, and then published.  | Git    |
 | Remote Tracking Branch | Last Known Catalog Entry from the Publishing House     | Represents Git's latest knowledge of the remote repository state.              | Git    |
-| Operating System           | A city's government that manages all public resources and ensures different departments work together.     | Demonstrates that applications do not manage hardware directly; the OS coordinates everything.                               | Linux       |
+| Operating System           | A city's government that manages all public resources and ensures different departments work together.     | Demonstrates that applications do not manage hardware directly; the OS coordinates everything.          | Linux       |
 | Linux Distribution         | Different car manufacturers building cars using the same engine but adding their own features and design.  | Explains why Ubuntu, Rocky Linux, Debian, etc., share the Linux kernel while offering different user experiences.            | Linux       |
-| GNU                        | The dashboard, steering wheel, pedals, and controls of a car.                                              | Shows that the kernel alone is not enough; GNU provides the tools that allow users to interact with the operating system.    | Linux       |
-| Shell                      | The steering wheel of a car.                                                                               | Illustrates that the shell is the interface through which the user controls the system.                                      | Linux       |
-| Bash                       | One specific type of steering wheel.                                                                       | Explains that Bash is one implementation of the broader concept of a shell, just as Zsh is another.                          | Linux       |
+| GNU   | The dashboard, steering wheel, pedals, and controls of a car.    | Shows that the kernel alone is not enough; GNU provides the tools that allow users to interact with the operating system.    | Linux       |
+| Shell | The steering wheel of a car.                | Illustrates that the shell is the interface through which the user controls the system.                 | Linux       |
+| Bash  | One specific type of steering wheel.        | Explains that Bash is one implementation of the broader concept of a shell, just as Zsh is another.     | Linux       |
 | BIOS / UEFI                | A security guard who checks the building and then tells the next person where to find the manager.         | Demonstrates that BIOS performs hardware checks and locates the bootloader but does not start Linux itself.                  | Linux       |
-| Bootloader (GRUB)          | A relay runner who receives the baton, finds the next runner, equips them, and passes control.             | Explains that GRUB locates the kernel, loads it (along with initramfs), and then hands over execution.                       | Linux       |
-| initramfs                  | A temporary emergency toolkit carried before entering a building.                                          | Solves the chicken-and-egg problem by giving the kernel enough tools to locate and mount the real root filesystem.           | Linux       |
-| Linux Boot Process         | A relay race where each runner has exactly one responsibility before passing the baton.                    | Reinforces the engineering principle of separation of responsibilities throughout system startup.                            | Linux       |
-| Kernel                     | The hotel manager.                                                                                         | Shows that the kernel manages resources, enforces rules, and coordinates all operations inside the system.                   | Linux       |
-| System Call                | The hotel reception desk.                                                                                  | Applications never speak directly to the manager (kernel); every request goes through the reception (system call interface). | Linux       |
-| Device Driver              | A translator between the hotel manager and workers who speak different languages.                          | Explains that the kernel communicates with hardware through drivers rather than knowing every device's language itself.      | Linux       |
-| User Space vs Kernel Space | Guests staying in the hotel versus the hotel management office.                                            | Guests (applications) have limited access, while management (kernel) has full authority over the hotel's operations.         | Linux       |
-| Single Responsibility      | Each relay runner performs only one task before handing over the baton.                                    | Demonstrates why Linux separates BIOS, GRUB, initramfs, Kernel, and systemd into independent stages.                         | Engineering |
-| Chicken-and-Egg Problem    | The hotel manager's keys are locked inside the hotel, but the manager needs those keys to enter the hotel. | Explains why initramfs is required before the kernel can access the real root filesystem.                                    | Engineering |
-| Program            | Recipe book stored in a kitchen                                                   | Exists but performs no work until someone starts cooking                                    | Linux  |
-| Process            | Chef actively preparing food                                                      | Demonstrates that execution begins only when work starts                                    | Linux  |
-| PID                | Employee ID card                                                                  | Every running employee has a unique identifier                                              | Linux  |
-| PPID               | Manager's employee ID                                                             | Shows who created or supervises a process                                                   | Linux  |
-| Process Tree       | Hotel organizational hierarchy                                                    | Illustrates parent-child relationships between processes                                    | Linux  |
+| Bootloader (GRUB)          | A relay runner who receives the baton, finds the next runner, equips them, and passes control.             | Explains that GRUB locates the kernel, loads it (along with initramfs), and then hands over execution.  | Linux       |
+| initramfs                  | A temporary emergency toolkit carried before entering a building.                     | Solves the chicken-and-egg problem by giving the kernel enough tools to locate and mount the real root filesystem.           | Linux       |
+| Linux Boot Process         | A relay race where each runner has exactly one responsibility before passing the baton.                    | Reinforces the engineering principle of separation of responsibilities throughout system startup.       | Linux       |
+| Kernel                     | The hotel manager.     | Shows that the kernel manages resources, enforces rules, and coordinates all operations inside the system.                   | Linux       |
+| System Call                | The hotel reception desk.                   | Applications never speak directly to the manager (kernel); every request goes through the reception (system call interface). | Linux       |
+| Device Driver              | A translator between the hotel manager and workers who speak different languages.     | Explains that the kernel communicates with hardware through drivers rather than knowing every device's language itself.      | Linux       |
+| User Space vs Kernel Space | Guests staying in the hotel versus the hotel management office.  | Guests (applications) have limited access, while management (kernel) has full authority over the hotel's operations.         | Linux       |
+| Single Responsibility      | Each relay runner performs only one task before handing over the baton.               | Demonstrates why Linux separates BIOS, GRUB, initramfs, Kernel, and systemd into independent stages.    | Engineering |
+| Chicken-and-Egg Problem    | The hotel manager's keys are locked inside the hotel, but the manager needs those keys to enter the hotel. | Explains why initramfs is required before the kernel can access the real root filesystem.               | Engineering |
+| Program            | Recipe book stored in a kitchen         | Exists but performs no work until someone starts cooking               | Linux  |
+| Process            | Chef actively preparing food            | Demonstrates that execution begins only when work starts               | Linux  |
+| PID                | Employee ID card   | Every running employee has a unique identifier    | Linux  |
+| PPID               | Manager's employee ID                   | Shows who created or supervises a process         | Linux  |
+| Process Tree       | Hotel organizational hierarchy          | Illustrates parent-child relationships between processes               | Linux  |
 | Orphan Process     | Chef whose manager resigned and is reassigned to the hotel manager                | Explains why Linux adopts running processes instead of terminating them                     | Linux  |
 | Zombie Process     | Guest who has checked out but whose checkout paperwork has not yet been completed | Demonstrates a process that has finished execution but still occupies a process table entry | Linux  |
-| Foreground Process | Receptionist serving one customer                                                 | Shows exclusive interaction with one user at a time                                         | Linux  |
-| Background Process | Housekeeping cleaning rooms while reception continues serving guests              | Explains multitasking without blocking user interaction                                     | Linux  |
-| Terminal Ownership | Reception desk occupied by one customer                                           | Helps visualize why only one foreground process receives keyboard input                     | Linux  |
-| SIGINT             | Customer politely asking to stop the current service                              | Represents graceful interruption through Ctrl+C                                             | Linux  |
-| SIGTERM            | Hotel announcing closing time                                                     | Represents a graceful request to finish work before exiting                                 | Linux  |
-| SIGKILL            | Security immediately escorting a disruptive guest out                             | Demonstrates forceful termination without cleanup                                           | Linux  |
-| SIGSTOP            | Manager instructing staff to pause work temporarily                               | Explains intentional suspension of execution                                                | Linux  |
-| SIGCONT            | Manager instructing staff to resume work                                          | Demonstrates continuation of a previously paused process                                    | Linux  |
+| Foreground Process | Receptionist serving one customer       | Shows exclusive interaction with one user at a time                    | Linux  |
+| Background Process | Housekeeping cleaning rooms while reception continues serving guests              | Explains multitasking without blocking user interaction                | Linux  |
+| Terminal Ownership | Reception desk occupied by one customer | Helps visualize why only one foreground process receives keyboard input                     | Linux  |
+| SIGINT             | Customer politely asking to stop the current service         | Represents graceful interruption through Ctrl+C   | Linux  |
+| SIGTERM            | Hotel announcing closing time           | Represents a graceful request to finish work before exiting            | Linux  |
+| SIGKILL            | Security immediately escorting a disruptive guest out        | Demonstrates forceful termination without cleanup | Linux  |
+| SIGSTOP            | Manager instructing staff to pause work temporarily          | Explains intentional suspension of execution      | Linux  |
+| SIGCONT            | Manager instructing staff to resume work                     | Demonstrates continuation of a previously paused process               | Linux  |
+| Root Directory (`/`)    | Main entrance of the hotel              | Every location inside the hotel is reached starting from the entrance.                   | Linux Filesystem |
+| Home Directory (`~`)    | Your hotel room    | Represents your personal workspace regardless of who is staying in the hotel.            | Linux Filesystem |
+| Absolute Path           | Directions from the hotel's main entrance to a destination   | Always reaches the same location regardless of where you currently are.                  | Linux Filesystem |
+| Relative Path           | Walking from your current room to another nearby location    | Navigation depends on your current position.   | Linux Filesystem |
+| Parent Directory (`..`) | Walking one level back (room → corridor → floor)             | Explains moving upward one directory level without specifying the full path.             | Linux Filesystem |
+| Character Device        | Receptionist having a conversation with guests               | Data flows one character or interaction at a time.                  | Linux Devices    |
+| Block Device            | Warehouse moving complete crates instead of individual items | Storage devices transfer large fixed-size blocks efficiently.       | Linux Devices    |
+| Inode                   | Guest identity card stored at reception | The identity card stores all important information about the guest, while the room nameplate is only a label. | Linux Filesystem |
+| Hard Link               | One guest having multiple official names in hotel records    | Multiple directory entries reference the same underlying object.    | Linux Filesystem |
+| Symbolic Link           | Hotel signboard pointing to the restaurant                   | The sign only stores directions; removing the restaurant leaves a sign pointing nowhere. | Linux Filesystem |
+| Broken Symbolic Link    | GPS pointing to an address that no longer exists             | The shortcut still exists, but the destination cannot be reached.   | Linux Filesystem |
+| `fork()`           | Hiring an identical second receptionist while the original stays at reception.                  | Explains why Linux creates a duplicate process instead of replacing the original shell.      | Linux / Processes |
+| `exec()`           | Replacing the receptionist with a chef while keeping the same employee ID and office.           | Demonstrates that the program changes but the process (PID) remains the same.                | Linux / Processes |
+| Process Scheduling | A receptionist serving multiple guests by giving each one a short amount of attention before moving to the next.     | Illustrates fair CPU sharing and system responsiveness.                 | Linux / Kernel    |
+| Context Switching  | Placing a bookmark in a book before helping someone else, then returning to exactly the same page and line.          | Explains how Linux resumes execution precisely where it stopped.        | Linux / Kernel    |
+| Virtual Memory     | A hotel assigning every guest their own room number while management secretly decides where everyone actually stays. | Demonstrates that processes see private memory while Linux manages the real physical memory. | Linux / Memory    |
+| Demand Paging      | Opening banquet tables only as guests actually arrive instead of preparing all tables immediately.                   | Shows why Linux allocates physical memory only when it is actually used.                     | Linux / Memory    |
+| Stack              | A receptionist's temporary notepad that is discarded after the conversation ends.               | Explains automatic cleanup of temporary function data.                  | Linux / Memory    |
+| Heap               | The hotel's permanent guest register that remains until checkout.          | Explains long-lived dynamically allocated memory controlled by the application.              | Linux / Memory    |
 
 ---
 

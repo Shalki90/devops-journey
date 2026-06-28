@@ -206,11 +206,11 @@ Preference is given to understanding systems rather than completing topics quick
 
 ## Immediate Next Phase
 
-Phase 03 — Linux Fundamentals
+## Phase 03 — Linux Fundamentals
 
-Progress:
+### Progress
 
-Completed:
+**Completed:**
 - Linux architecture overview
 - GNU
 - Shell and Bash
@@ -222,20 +222,33 @@ Completed:
 - User Space vs Kernel Space
 - System Calls
 - Device Drivers
-
-Upcoming:
 - Processes
 - Process Lifecycle
-- fork()
-- exec()
-- Scheduling
-- Memory Management
-- Filesystem
-- Services
+- PID & PPID
+- `fork()`
+- `exec()`
+- Process Scheduling
+- Context Switching
+- Virtual Memory
+- Demand Paging
+- Stack vs Heap
+
+**Upcoming:**
+- Linux Filesystem Hierarchy
+- Files
+- Directories
+- Inodes
+- Hard Links
+- Symbolic Links
+- Users
+- Groups
+- Ownership
 - Permissions
-- Users & Groups
+- `systemd`
+- Services
 - Logs
----
+- SSH
+- Package Management
 
 # Career Target
 

@@ -60,18 +60,18 @@ By the end of this phase, I should be able to:
 | ✅      | Process Lifecycle                  |
 | ✅      | PID                                |
 | ✅      | PPID                               |
-| ⬜      | fork()                             |
-| ⬜      | exec()                             |
-| ⬜      | Process Scheduling                 |
-| ⬜      | Context Switching                  |
-| ⬜      | Virtual Memory                     |
-| ⬜      | Stack vs Heap                      |
-| ⬜      | Linux Filesystem Hierarchy         |
-| ⬜      | Files                              |
-| ⬜      | Directories                        |
-| ⬜      | Inodes                             |
-| ⬜      | Hard Links                         |
-| ⬜      | Symbolic Links                     |
+| ✅      | fork()                             |
+| ✅      | exec()                             |
+| ✅      | Process Scheduling                 |
+| ✅      | Context Switching                  |
+| ✅      | Virtual Memory                     |
+| ✅      | Stack vs Heap                      |
+| ✅      | Linux Filesystem Hierarchy         |
+| ✅      | Files                              |
+| ✅      | Directories                        |
+| ✅      | Inodes                             |
+| ✅      | Hard Links                         |
+| ✅      | Symbolic Links                     |
 | ⬜      | Users                              |
 | ⬜      | Groups                             |
 | ⬜      | Ownership                          |
@@ -91,6 +91,7 @@ By the end of this phase, I should be able to:
 | ⬜      | Linux Filesystem Exploration | Navigate and understand the Linux filesystem hierarchy.  |
 | ✅      | Process Inspection           | Inspect running processes using `ps`, `top`, and `htop`. |
 | 🟨      | Process Management           | Manage processes using `kill`, `pkill`, and signals.     |
+| ✅      | Linux Filesystem Exploration | Navigate and understand the Linux filesystem hierarchy.  |
 | ⬜      | Memory Inspection            | Observe memory utilization and process memory usage.     |
 | ⬜      | Files & Directories          | Create, copy, move, and remove files and directories.    |
 | ⬜      | Permissions Lab              | Modify permissions using `chmod`.                        |
