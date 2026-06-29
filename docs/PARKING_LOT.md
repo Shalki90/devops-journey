@@ -16,20 +16,23 @@ An item should be added only if:
 
 ## Parked Items
 
-| ID    | Item                                | Reason Parked                                                                                                               | Revisit When                                                                             | Status    |
+| ID    | Item    | Reason Parked      | Revisit When       | Status    |
 | ----- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------- |
-| P-001 | AI_PLAYBOOK.md                      | AI usage patterns are still evolving. More practical experience is needed before documenting best practices.                | After completing multiple technical phases and real projects.                            | 🟡 Parked |
-| P-002 | Design Before Execution             | Potential learning principle that requires further validation across multiple topics before becoming a permanent principle. | When sufficient evidence has been gathered through the learning journey.                 | 🟡 Parked |
-| P-003 | Architecture Diagrams               | Diagrams should represent real systems rather than hypothetical designs.                                                    | As real architectures are built throughout the curriculum.                               | 🟡 Parked |
-| P-004 | Labs & Projects Handbook            | The structure should emerge naturally from practical work rather than being designed in advance.                            | After completing multiple hands-on labs and projects.                                    | 🟡 Parked |
-| P-005 | Resume & Portfolio Guide            | Best practices should be based on completed work rather than assumptions.                                                   | After building a substantial portfolio of projects.                                      | 🟡 Parked |
-| P-006 | git cherry-pick                     | Useful but not required for foundational Git proficiency. Better learned after real project collaboration experience.       | After completing Linux and beginning team-style project work.                            | 🟡 Parked |
-| P-007 | git rebase                          | Rewrites commit history and requires strong understanding of branches, merges, and shared history.                          | After gaining practical Git experience across multiple projects.                         | 🟡 Parked |
-| P-008 | Interactive Rebase                  | Advanced history editing provides little value until working with larger commit histories.                                  | After learning standard rebase and participating in collaborative development workflows. | 🟡 Parked |
-| P-009 | Commit Squashing Strategies         | Best understood after experiencing noisy commit histories in real projects.                                                 | During project development and repository maintenance phases.                            | 🟡 Parked |
-| P-010 | Git Bisect                          | Requires larger commit histories and realistic debugging scenarios to provide meaningful value.                             | After building projects with significant development history.                            | 🟡 Parked |
-| P-011 | Advanced Git Collaboration Patterns | Concepts such as release branches, trunk-based development, and GitFlow are premature without real team workflows.          | During project and platform engineering phases.                                          | 🟡 Parked |
-
+| P-001 | AI_PLAYBOOK.md | AI usage patterns are still evolving. More practical experience is needed before documenting best practices.  | After completing multiple technical phases and real projects.       | 🟡 Parked |
+| P-002 | Design Before Execution      | Potential learning principle that requires further validation across multiple topics before becoming a permanent principle. | When sufficient evidence has been gathered through the learning journey.   | 🟡 Parked |
+| P-003 | Architecture Diagrams | Diagrams should represent real systems rather than hypothetical designs.   | As real architectures are built throughout the curriculum.   | 🟡 Parked |
+| P-004 | Labs & Projects Handbook     | The structure should emerge naturally from practical work rather than being designed in advance.       | After completing multiple hands-on labs and projects. | 🟡 Parked |
+| P-005 | Resume & Portfolio Guide     | Best practices should be based on completed work rather than assumptions.  | After building a substantial portfolio of projects.   | 🟡 Parked |
+| P-006 | git cherry-pick       | Useful but not required for foundational Git proficiency. Better learned after real project collaboration experience.       | After completing Linux and beginning team-style project work.       | 🟡 Parked |
+| P-007 | git rebase     | Rewrites commit history and requires strong understanding of branches, merges, and shared history.     | After gaining practical Git experience across multiple projects.    | 🟡 Parked |
+| P-008 | Interactive Rebase    | Advanced history editing provides little value until working with larger commit histories.      | After learning standard rebase and participating in collaborative development workflows. | 🟡 Parked |
+| P-009 | Commit Squashing Strategies  | Best understood after experiencing noisy commit histories in real projects.       | During project development and repository maintenance phases.       | 🟡 Parked |
+| P-010 | Git Bisect     | Requires larger commit histories and realistic debugging scenarios to provide meaningful value. | After building projects with significant development history.       | 🟡 Parked |
+| P-011 | Advanced Git Collaboration Patterns | Concepts such as release branches, trunk-based development, and GitFlow are premature without real team workflows.   | During project and platform engineering phases.       | 🟡 Parked |
+| P-012 | SSH Key-based Authentication    | Password authentication is sufficient for learning SSH fundamentals. Key-based authentication is more meaningful when working with multiple Linux machines or cloud VMs. | Phase 05 / Cloud Infrastructure  | 🟡 Parked |
+| P-013 | SSH Port Forwarding & Tunneling | Advanced SSH networking concepts require stronger networking foundations.     | After Networking phase    | 🟡 Parked |
+| P-014 | Advanced `journalctl` Filtering | Current filtering covers practical troubleshooting. Complex field-based filtering can wait until production-scale logging.     | Monitoring & Observability phase | 🟡 Parked |
+| P-015 | cgroups    | Mentioned during systemd but intentionally deferred until Docker and Kubernetes.     | Docker / Kubernetes phase | 🟡 Parked |
 ---
 
 ## Guidelines
