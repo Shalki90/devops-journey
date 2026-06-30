@@ -63,7 +63,10 @@ These principles are independent of any specific technology and are intended to 
 | Controlled Interfaces | Components should communicate through defined interfaces rather than direct access.  | Simplifies maintenance and improves security boundaries.     | Phase 03 – systemd / SSH |
 | Dependency Management | Components with dependencies must start in a controlled order while independent components can run in parallel.  | Improves reliability and boot efficiency.      | Phase 03 – systemd       |
 | Graceful Change       | Prefer reloading configuration over restarting services when possible. | Minimizes downtime and user disruption. | Phase 03 – Services      |
-
+| Single Source of Truth        | Maintain one authoritative copy of shared resources.       | Simplifies maintenance and updates.         | Phase 03 - Package Manager  |
+| Don't Repeat Yourself (DRY)   | Avoid duplicating identical functionality or resources.    | Reduces redundancy and inconsistency.       | Phase 03 - Package Manager   |
+| Configuration over Hardcoding | Store configurable behavior outside the application logic. | Makes systems flexible and maintainable.    | Phase 03 - Package Manager   |
+| Centralized Maintenance       | Shared resources should be updated in one place.           | One fix benefits every dependent component. | Phase 03 - Package Manager   |
 
 ---
 

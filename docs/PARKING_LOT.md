@@ -33,6 +33,10 @@ An item should be added only if:
 | P-013 | SSH Port Forwarding & Tunneling | Advanced SSH networking concepts require stronger networking foundations.     | After Networking phase    | 🟡 Parked |
 | P-014 | Advanced `journalctl` Filtering | Current filtering covers practical troubleshooting. Complex field-based filtering can wait until production-scale logging.     | Monitoring & Observability phase | 🟡 Parked |
 | P-015 | cgroups    | Mentioned during systemd but intentionally deferred until Docker and Kubernetes.     | Docker / Kubernetes phase | 🟡 Parked |
+| P-016 | SSH Key Authentication       | Password-based SSH is sufficient for Linux fundamentals. Key-based authentication deserves its own discussion.       | During Git/GitHub or Cloud phases. | 🟡 Parked |
+| P-017 | Private Package Repositories | Public Ubuntu repositories are sufficient for learning package management.               | CI/CD or Enterprise Linux phase.   | 🟡 Parked |
+| P-018 | Dependency Hell              | The problem is introduced conceptually, but its practical solution (containers, virtual environments) belongs later. | Docker phase.                      | 🟡 Parked |
+
 ---
 
 ## Guidelines

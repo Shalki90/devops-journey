@@ -83,7 +83,7 @@ By the end of this phase, I should be able to:
 | ✅      | Logs                               |
 | ✅      | SSH Fundamentals                   |
 | ⬜      | SSH Hands-on                       |
-| ⬜      | Package Management                 |
+| ✅      | Package Management                 |
 
 ---
 
@@ -102,7 +102,7 @@ By the end of this phase, I should be able to:
 | ⬜      | SSH Lab                      | Connect securely to Linux systems using SSH.                                      |
 | ✅      | systemd Services             | Inspect, manage, enable, disable, restart, and reload services using `systemctl`. |
 | ✅      | Journal Logs                 | Analyze and filter logs using `journalctl`.                                       |
-| ⬜      | Package Management           | Install, update, and remove packages using APT.                                   |
+| ✅      | Package Management           | Install, update, and remove packages using APT.                                   |
 
 ---
 
@@ -162,6 +162,6 @@ The following topics were intentionally deferred because they are not required f
 
 ---
 
-Version: 0.2
+Version: 0.3
 
-Status: 🟡 In Progress
+Status: ✅ Completed

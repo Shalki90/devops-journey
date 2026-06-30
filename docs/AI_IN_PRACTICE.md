@@ -46,6 +46,10 @@ The goal is to connect foundational engineering knowledge with real-world AI imp
 | Log Analysis   | AI can summarize large log datasets, identify recurring failures, correlate events across services, and accelerate root-cause analysis. | Reduces Mean Time To Resolution (MTTR) and improves incident response. | Observability    |
 | SSH Security   | AI can detect unusual login patterns, brute-force attempts, impossible travel, and anomalous remote access behaviour.     | Improves infrastructure security and threat detection.   | Security  |
 | Service Failure Correlation  | AI can correlate failures across multiple services managed by systemd and suggest probable dependency chains.      | Assists engineers during complex production incidents.   | Infrastructure   |
+| Package Management   | Explain dependency trees and package relationships.   | Helps understand complex software ecosystems. | Linux  |
+| Dependency Analysis  | Identify missing dependencies and installation order. | Useful during troubleshooting.                | Linux  |
+| Repository Selection | Explain repository structure and package sources.     | Helps diagnose installation problems.         | Linux  |
+
 ---
 
 Version: 0.4

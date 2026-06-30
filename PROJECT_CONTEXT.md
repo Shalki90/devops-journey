@@ -232,8 +232,6 @@ Preference is given to understanding systems rather than completing topics quick
 - Virtual Memory
 - Demand Paging
 - Stack vs Heap
-
-**Upcoming:**
 - Linux Filesystem Hierarchy
 - Files
 - Directories
@@ -249,6 +247,9 @@ Preference is given to understanding systems rather than completing topics quick
 - Logs
 - SSH
 - Package Management
+
+**Upcoming:**
+
 
 # Career Target
 

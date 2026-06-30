@@ -163,6 +163,15 @@ The objective is to understand concepts rather than memorize definitions. Entrie
 | remote shell      | A shell running on another machine while being securely controlled from a local client.    | Linux / Networking |
 | authentication    | The process of verifying the identity of a user before granting access.    | Security   |
 | encryption| Converting data into an unreadable format so that only authorized parties can read it.     | Security   |
+| Package         | A bundle containing an application, metadata, dependency information, and installation instructions. | Linux  |
+| Package Manager | Software that installs, upgrades, removes, and manages software packages.| Linux  |
+| Repository      | A centralized server that stores software packages and package metadata. | Linux  |
+| APT             | High-level package manager that resolves dependencies, downloads packages, and invokes dpkg.         | Linux  |
+| dpkg            | Low-level Debian package installer that installs local `.deb` packages.  | Linux  |
+| Dependency      | Software required for another application to function correctly.         | Linux  |
+| Shared Library  | A single installed library that multiple applications can use simultaneously.                        | Linux  |
+| Package Index   | Local metadata downloaded from repositories that describes available packages.                       | Linux  |
+
 
 ---
 

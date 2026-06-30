@@ -102,7 +102,8 @@ Hands-on projects will be added throughout this journey, with each project desig
 | Phase 00 — Engineering OS                     | ✅ Completed |
 | Phase 01 — Internet & Networking Fundamentals | ✅ Completed |
 | Phase 02 — Git & Version Control              | ✅ Completed |
-| Phase 03 — Linux Fundamentals                 | ⏳ In Progress      |
+| Phase 03 — Linux Fundamentals                 | ✅ Completed      |
+| Phase 04 — Docker                             | ⏳ In Progress      |
 
 Current Focus:
 
@@ -111,10 +112,12 @@ Internet & Networking
         ↓
 Git & Version Control
         ↓
-Linux Fundamentals (In Progress)
+Linux Fundamentals
+        ↓
+Docker (Not Started)
 ```
 
 
-Version: 0.1
+Version: 0.2
 
 Status: Living Document

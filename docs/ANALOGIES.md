@@ -150,6 +150,12 @@ The goal is to build intuitive understanding through simple real-world compariso
 | SSH | Secure hotel intercom     | Allows secure administration of the hotel from another city without physical presence.  | Linux / Networking |
 | Remote Shell| Speaking to the hotel manager through the secure intercom | Commands originate locally but execute at the hotel itself.     | Linux / Networking |
 | Principle of Least Exposure | Locked staff-only areas   | Only departments requiring public access should expose an entrance; everything else remains protected.  | Security   |
+| `apt update`   | Updating the restaurant menu        | Retrieves the latest package list without installing software | Linux  |
+| Repository     | Restaurant kitchen / warehouse      | Central place where packages are stored                       | Linux  |
+| Package        | Shipping box with instructions      | Contains software plus everything needed to install it        | Linux  |
+| Shared Library | Shared toolbox used by many workers | One maintained copy serves multiple applications              | Linux  |
+| APT            | Logistics coordinator               | Plans downloads and dependency resolution                     | Linux  |
+| dpkg           | Warehouse unpacking crew            | Installs the package once it has been delivered               | Linux  |
 
 ---
 
