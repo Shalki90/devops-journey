@@ -1,123 +1,179 @@
-# Engineering OS
-### DevOps • Cloud • Platform Engineering
+# DevOps Engineering Journey
 
-*A structured engineering handbook documenting the journey toward DevOps and Platform Engineering through first-principles learning, hands-on projects, and continuous improvement.*
-
----
-
-## Vision
-
-This repository serves as a long-term engineering handbook rather than a collection of notes.
-
-It captures engineering concepts, projects, architectural decisions, and practical experience developed throughout the journey toward becoming a well-rounded DevOps and Platform Engineer.
-
-The focus is on understanding first principles, building real-world solutions, and developing the knowledge, judgment, and practical experience required to design, build, automate, and operate modern software systems.
+**Version:** 1.0
+**Status:** In Progress (Structured Migration Phase)
 
 ---
 
-## Learning Philosophy
+# Overview
 
-Every topic in this repository follows the same engineering approach:
+The **DevOps Engineering Journey** is a structured engineering handbook that documents the complete learning path, practical experience, and implementation knowledge required to become a DevOps Engineer.
 
-```text
-Understand
-      ↓
-Build
-      ↓
-Troubleshoot
-      ↓
-Teach
+This repository is designed to function as:
+
+* A **professional portfolio** showcasing engineering capability.
+* A **long-term reference handbook** for DevOps concepts and systems.
+* A **structured knowledge system** built for scalability and clarity.
+
+This repository teaches engineering principles before tool usage while ensuring every technology is mastered to a practical, production-ready level.
+---
+
+# Philosophy
+
+This repository is built on core engineering documentation principles:
+
+* Every document has **one responsibility**.
+* Every concept has a **single source of truth**.
+* Every file starts at **Version 1.0**.
+* Duplication is strictly avoided.
+* Cross-referencing is preferred over repetition.
+* Knowledge is structured for both **learning and long-term recall**.
+
+---
+
+# Repository Structure
+
+The repository is organized into the following major sections:
+
+```text id="struct1"
+docs/
+├── governance/        → Repository rules and standards
+├── curriculum/        → Learning progression roadmap
+├── concepts/          → Core DevOps technical knowledge
+├── engineering/       → Engineering principles and mindset
+├── ai/                → AI-assisted DevOps workflows and prompts
+├── labs/             → Hands-on practical exercises
+├── projects/         → End-to-end implementation projects
+├── references/       → External learning resources
+├── session-notes/     → Learning journey records
+├── assets/           → Supporting diagrams and media
+├── scripts/          → Automation and helper scripts
 ```
 
-Learning is considered complete only when a concept can be understood, applied, debugged, and confidently explained.
+---
+
+# Governance System
+
+The repository is governed by a dedicated documentation system:
+
+* `docs/governance/REPOSITORY_ARCHITECTURE.md`
+  Defines repository structure and design philosophy.
+
+* `docs/governance/DOCUMENTATION_STANDARDS.md`
+  Defines writing standards and formatting rules.
+
+* `docs/governance/CONTENT_OWNERSHIP_MATRIX.md`
+  Defines where each type of knowledge belongs.
+
+* `docs/governance/MIGRATION_LOG.md`
+  Tracks migration progress and decisions.
 
 ---
 
-## Repository Goals
+# Learning Domains
 
-- Build strong engineering fundamentals through first-principles learning.
-- Develop production-oriented DevOps and Platform Engineering projects.
-- Document architectural decisions and engineering concepts.
-- Create a long-term engineering handbook for continuous reference.
-- Continuously evolve alongside modern DevOps, Cloud, Platform Engineering, and AI practices.
+The repository covers the full DevOps ecosystem:
 
----
-
-## Engineering Domains
-
-| Domain | Technologies |
-|----------|--------------|
-| Internet & Networking Fundamentals | Internet, IP, DNS, Routing, HTTP, HTTPS, Security |
-| Version Control | Git |
-| Operating Systems | Linux |
-| Containers | Docker |
-| Scripting & Automation | Bash, Python |
-| CI/CD | GitHub Actions, Jenkins |
-| Cloud | AWS |
-| Infrastructure as Code | Terraform |
-| Container Orchestration | Kubernetes |
-| Monitoring & Observability | Prometheus, Grafana |
-| AI for Engineering | Modern AI Systems & Engineering Workflows |
+* Internet & Networking
+* Git & Version Control
+* Linux Fundamentals
+* Docker
+* Kubernetes
+* Infrastructure as Code (Terraform)
+* Configuration Management (Ansible)
+* CI/CD Pipelines
+* Cloud Platforms (primarily AWS)
+* Monitoring & Observability
+* Security (DevSecOps)
+* Real-world DevOps Projects
 
 ---
 
-## Repository Structure
+# Information Model
 
-| File / Folder | Purpose |
-|---------------|---------|
-| `README.md` | Repository overview and entry point for visitors. |
-| `PROJECT_CONTEXT.md` | Preserves learning philosophy, progress, and continuity across conversations. |
-| `docs/ENGINEERING_CHARTER.md` | Defines the long-term engineering philosophy guiding the repository. |
-| `docs/ROADMAP.md` | High-level view of the engineering journey and current progress. |
-| `docs/CURRICULUM.md` | Detailed learning roadmap with phases and learning objectives. |
-| `docs/LEARNING_PRINCIPLES.md` | Documents the principles that shape how learning takes place. |
-| `docs/ENGINEERING_PRINCIPLES.md` | Captures timeless engineering lessons discovered throughout the journey. |
-| `docs/DICTIONARY.md` | Quick reference for engineering terminology. |
-| `docs/ANALOGIES.md` | Real-world analogies that simplify complex engineering concepts. |
-| `docs/AI_IN_PRACTICE.md` | Connects engineering concepts with their real-world applications in AI systems. |
-| `docs/PARKING_LOT.md` | Tracks intentionally deferred technical questions, ideas, architectural decisions, and future documentation. |
-| `docs/curriculum/` | One document for each learning phase, including objectives, topics, labs, projects, and completion criteria. |
-| `session-notes/` | Chronological summaries of completed learning sessions. |
-| `projects/` | Hands-on projects built throughout the learning journey. |
-| `labs/` | Focused experiments for exploring and validating engineering concepts. |
+Knowledge in this repository is structured into:
+
+* **Concepts** → Core technical understanding
+* **Dictionary** → Terminology definitions
+* **Analogies** → Mental models for understanding
+* **Cheatsheets** → Quick reference commands
+* **Troubleshooting** → Real-world issue resolution
+* **Interview** → Preparation questions and answers
+* **Labs** → Hands-on implementation practice
+* **Projects** → End-to-end system builds
+* **Engineering Principles** → Cross-cutting design concepts
+* **AI in Practice** → AI-assisted workflows and prompts
 
 ---
 
-## Projects
+# Migration Status
 
-Hands-on projects will be added throughout this journey, with each project designed to solve real engineering problems while reinforcing the concepts learned during each phase.
+The repository is currently in the **structured migration phase**.
+
+* Governance layer: Completed (Version 1.0)
+* Metadata layer: Completed (Version 1.0)
+* Technical migration: Pending
+
+Next phase:
+
+👉 Sprint 1 — Internet & Networking
 
 ---
 
-## Guiding Principle
+# Usage
 
-> **Understand first. Build with purpose. Continuously improve.**
+This repository should be used in three ways:
+
+### 1. Learning Path
+
+Follow the roadmap sequentially from networking to advanced DevOps topics.
+
+### 2. Reference System
+
+Use the structured documentation to revisit concepts quickly.
+
+### 3. Portfolio
+
+Review the repository as a demonstration of engineering thinking, structure, and execution capability.
 
 ---
 
-## Current Progress
+# Contribution Philosophy
 
-| Phase                                         | Status      |
-| --------------------------------------------- | ----------- |
-| Phase 00 — Engineering OS                     | ✅ Completed |
-| Phase 01 — Internet & Networking Fundamentals | ✅ Completed |
-| Phase 02 — Git & Version Control              | ✅ Completed |
-| Phase 03 — Linux Fundamentals                 | ✅ Completed      |
-| Phase 04 — Docker                             | ⏳ In Progress      |
+Even though this is a personal learning repository, it follows engineering-grade documentation standards:
 
-Current Focus:
+* No duplicate content
+* No unclear ownership
+* No incomplete files
+* No mixed responsibilities
 
-```text
-Internet & Networking
-        ↓
-Git & Version Control
-        ↓
-Linux Fundamentals
-        ↓
-Docker (Not Started)
-```
+Every addition must align with the governance system.
 
+---
 
-Version: 0.2
+# Success Criteria
 
-Status: Living Document
+This repository will be considered successful when:
+
+* All DevOps domains are fully documented.
+* Labs and projects demonstrate practical capability.
+* Documentation is consistent and maintainable.
+* Navigation is intuitive without external guidance.
+* It serves both as a portfolio and a long-term engineering reference.
+
+---
+
+# Next Phase
+
+👉 Sprint 1: Internet & Networking
+
+This phase will begin the structured migration of technical knowledge from the original repository into the new architecture.
+
+---
+
+# Related Documents
+
+* docs/governance/REPOSITORY_ARCHITECTURE.md
+* docs/governance/DOCUMENTATION_STANDARDS.md
+* docs/governance/CONTENT_OWNERSHIP_MATRIX.md
+* docs/governance/MIGRATION_LOG.md
