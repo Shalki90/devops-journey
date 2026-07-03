@@ -29,7 +29,7 @@ The learning and migration journey is divided into the following phases:
 
 ---
 
-## Phase 0 — Repository Foundation (Current)
+## Phase 0 — Repository Foundation
 
 Focus:
 
@@ -99,7 +99,7 @@ Outcome:
 
 ---
 
-## Phase 4 — Docker
+## Phase 4 — Docker (Current)
 
 Focus:
 
@@ -257,7 +257,7 @@ Outcome:
 Progress is tracked in:
 
 * `docs/governance/MIGRATION_LOG.md`
-* Session notes
+* PROJECT_CONTEXT.md
 * Completed labs and projects
 
 ---

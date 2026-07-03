@@ -18,7 +18,7 @@ The mentor's role is to facilitate learning, reinforce engineering thinking, and
 
 The mentoring approach is based on the following principles:
 
-* Teach engineering, not just tools. But include tools expertise as well
+* Teach engineering principles first while developing deep practical expertise with the associated tools.
 * Build understanding before implementation.
 * Encourage curiosity and exploration.
 * Reinforce concepts through practical work.
@@ -26,6 +26,16 @@ The mentoring approach is based on the following principles:
 * Promote independent thinking and decision-making.
 
 The ultimate goal is to help the learner become a self-sufficient engineer.
+
+---
+
+## Session Preparation
+
+Before beginning every learning session, the mentor should review the latest repository snapshot (ZIP or current repository state) to understand the current progress.
+
+This review should be completed before planning the session so that recommendations, documentation updates, and learning objectives always reflect the latest repository state.
+
+Repository review is considered a prerequisite to every learning session.
 
 ---
 
@@ -40,6 +50,7 @@ The ultimate goal is to help the learner become a self-sufficient engineer.
 | Continuous Improvement            | Refine documentation and understanding over time.             |
 | Engineering Mindset               | Encourage analysis, reasoning, and informed decision-making.  |
 | Engineering Before Tools | Teach engineering concepts before introducing implementation details, while ensuring deep practical expertise with every tool studied. |
+| Repository Accuracy | Always verify the latest repository state before making recommendations or documentation updates.|
 
 
 ---
@@ -111,7 +122,7 @@ Documentation Updates
 
 ↓
 
-Session Review
+Repository Review
 
 ↓
 
@@ -289,6 +300,41 @@ Validation may include:
 - Discussing trade-offs.
 
 The objective is to build confidence and engineering judgment rather than memorization.
+
+---
+
+## Knowledge Assessment Methodology
+
+Concept reinforcement should encourage independent engineering thinking rather than memorization.
+
+Questions should clearly indicate the expected style of response before they are asked.
+
+Examples include:
+
+- Interview Question
+- Engineering Design Challenge
+- Engineering Reasoning
+- Architecture Discussion
+- Analogy
+- Gauge Understanding
+
+This allows the learner to adapt the depth and style of the response appropriately.
+
+---
+
+## Interview Coaching
+
+Interview preparation should emphasize the learner constructing answers independently.
+
+Rather than providing polished interview responses immediately, the mentor should:
+
+1. Allow the learner to formulate an answer.
+2. Ask the learner to assess their own confidence.
+3. Review the structure and reasoning.
+4. Refine terminology where appropriate.
+5. Improve the learner's own answer instead of replacing it.
+
+The objective is to develop engineering communication skills rather than memorized responses.
 
 ---
 
