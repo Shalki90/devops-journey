@@ -20,3 +20,5 @@
 | Dockerfile | Declarative instructions for building images. |
 | Registry | Repository used to store and distribute images. |
 | Docker Hub | Public Docker registry. |
+| Immutable Image | Read-only image that never changes after creation.|
+| PID 1| The primary process inside a container. The container exits when this process ends.|

@@ -347,3 +347,4 @@ The objective is to develop engineering communication skills rather than memoriz
 | Learning Techniques.md  | Explains the methods used to reinforce learning          |
 | Session Workflow.md     | Defines the standard workflow for every learning session |
 | Repository Standards.md | Documents repository-wide standards and conventions      |
+| Documentation Workflow.md | Defines the standard workflow for reviewing, updating, and verifying repository documentation after every learning session. |
