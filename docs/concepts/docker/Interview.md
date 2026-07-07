@@ -15,6 +15,11 @@
 - Explain a Dockerfile.
 - What is a Docker Registry?
 - Why are registries useful in production?
+- Explain the complete lifecycle of a Docker container.
+- Explain Attached Mode vs Detached Mode.
+- Explain Port Publishing (`-p`).
+- Explain what happens when `docker stop`, `docker start`, and `docker restart` are executed.
+- Why can one image create multiple containers?
 
 ### Engineering Reasoning
 
@@ -26,11 +31,17 @@
 - Why are Docker registries preferred over manually sharing images?
 - Why is the `latest` tag discouraged in production?
 - Why does Kubernetes benefit from immutable Docker images?
+- Why are images and containers treated as separate objects?
+- Why does Docker separate stop, start, restart, and remove into different commands instead of one lifecycle command?
+- Why does Docker prevent deleting an image that is still referenced by containers?
+- Why does Docker keep stopped containers instead of automatically deleting them?
+- Why does Detached Mode exist?
 
 ### Troubleshooting Interview Scenarios
 
 - A container starts successfully and exits after two seconds. Explain your troubleshooting approach.
 - An application was rebuilt, but the running container still behaves like the old version. Explain your investigation process.
+- `docker --version` works, but `docker info` cannot connect to the Docker Engine. Walk through your troubleshooting approach.
 
 ### Engineering Principles Reinforced
 

@@ -22,3 +22,9 @@
 | Docker Hub | Public Docker registry. |
 | Immutable Image | Read-only image that never changes after creation.|
 | PID 1| The primary process inside a container. The container exits when this process ends.|
+| Attached Mode | Docker execution mode where the CLI remains connected to the container's stdout and stderr until the process exits or the user detaches. |
+| Detached Mode | Docker execution mode (`-d`) where the container runs in the background and the CLI immediately returns control to the terminal. |
+| Logging Driver | Docker component responsible for capturing and managing a container's stdout and stderr streams. |
+| OCI Bundle | Standardized package containing a container's configuration and root filesystem passed from containerd to runc. |
+| Port Publishing | Mapping a host port to a container port using the `-p` option. |
+| Storage Driver | Docker component responsible for managing image layers and each container's writable layer on disk. |
