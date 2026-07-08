@@ -41,3 +41,8 @@
 | PID 1 | Guest occupying the room |
 | Detached Mode | Reception returns to serving other guests while the guest continues staying in the room |
 | Port Publishing | Reception explicitly exposing the guest's room number so visitors know where to reach them |
+| docker exec | Reception temporarily sending hotel staff into an occupied room | Creates a new process inside an already running container without creating a new room (container). |
+| docker inspect | Hotel management system | Retrieves the complete record of a room (container) without entering it. |
+| docker inspect -f | Hotel receptionist answering a specific question | Returns only the requested detail from the room record instead of the entire file. |
+| docker top | CCTV control room | Allows hotel management to see everyone currently inside a specific room (container). |
+| docker stats | Patient vital monitor | Continuously displays the current health metrics of the room (container), such as resource consumption. |

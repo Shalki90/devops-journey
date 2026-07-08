@@ -68,18 +68,19 @@ Current Phase:
 Structured DevOps Learning Journey (Version 1.x Repository)
 
 Current Sprint:
-Conceptual learning, interview assessment, and production scenario discussions have been completed.
-Hands-on implementation remains before Sprint 04 is considered complete.
+Sprint 04 — Docker Foundations has been completed.
+
+The repository is now progressing to Sprint 05 — Docker Images & Dockerfile.
 
 ### Sprint 04 — Docker Foundations
 
 **Status**
 
-The engineering foundations of Docker have been completed through an engineering-first approach, covering the reasoning behind Docker's architecture before learning Docker-specific tools.
+Sprint 04 has been successfully completed.
 
-Conceptual understanding has been validated through interview-style discussions and production troubleshooting scenarios.
+The repository now contains both conceptual understanding and hands-on implementation of Docker runtime fundamentals.
 
-Hands-on implementation remains pending before Sprint 04 is considered complete.
+Conceptual understanding has been validated through interview discussions, production troubleshooting scenarios and practical Docker exercises.
 
 ---
 
@@ -95,11 +96,15 @@ Hands-on implementation remains pending before Sprint 04 is considered complete.
 
 ✔ Docker Registry Complete
 
-✔ Docker Interview Assessment
+✔ Docker Runtime Interaction
 
-✔ Production Scenarios
+✔ Docker Container Inspection & Monitoring
 
-⬜ Hands-on Labs
+✔ Hands-on Labs Complete
+
+✔ Module 2 Documentation Complete
+
+➡ Next Sprint: Docker Images & Dockerfile
 
 ---
 

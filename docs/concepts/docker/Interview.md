@@ -50,3 +50,24 @@
 - Automate repetitive work.
 - Preserve immutable artifacts.
 - Optimize for reproducibility and consistency.
+
+### Question
+
+A container is reported as "slow". Which Docker commands would you use to investigate, and in what order?
+
+**Expected Discussion**
+
+- Verify the container is running.
+- Check resource utilisation.
+- Inspect running processes.
+- Review application logs.
+- Inspect container metadata only if configuration verification is required.
+
+**Key Learning**
+
+Different Docker commands observe different aspects of a container:
+
+- `docker stats` → Resource utilisation
+- `docker top` → Running processes
+- `docker logs` → Application output
+- `docker inspect` → Docker metadata

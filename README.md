@@ -114,28 +114,6 @@ The repository is currently in the **structured migration phase**.
 * Metadata layer: Completed (Version 1.0)
 * Technical migration: Pending
 
-Next phase:
-
-👉 Sprint 1 — Internet & Networking
-
----
-
-# Usage
-
-This repository should be used in three ways:
-
-### 1. Learning Path
-
-Follow the roadmap sequentially from networking to advanced DevOps topics.
-
-### 2. Reference System
-
-Use the structured documentation to revisit concepts quickly.
-
-### 3. Portfolio
-
-Review the repository as a demonstration of engineering thinking, structure, and execution capability.
-
 ---
 
 # Contribution Philosophy
@@ -161,13 +139,6 @@ This repository will be considered successful when:
 * Navigation is intuitive without external guidance.
 * It serves both as a portfolio and a long-term engineering reference.
 
----
-
-# Next Phase
-
-👉 Sprint 1: Internet & Networking
-
-This phase will begin the structured migration of technical knowledge from the original repository into the new architecture.
 
 ---
 

@@ -8,6 +8,7 @@
 | Docker CLI | User interface for Docker commands. |
 | Docker Daemon (dockerd) | Background service managing Docker objects. |
 | Docker API | API used by the CLI to communicate with dockerd. |
+| Docker Go Template | Go template syntax used with `docker inspect -f` to extract specific metadata fields without printing the complete JSON output. |
 | containerd | Manages the lifecycle of containers. |
 | runc | Low-level OCI runtime that creates Linux containers. |
 | Linux Kernel | Shared operating system kernel used by all containers. |

@@ -46,3 +46,16 @@
 | Check `docker context ls`. | Confirms the CLI is targeting the expected Docker Engine endpoint. |
 | Verify the named pipe / Docker Engine endpoint exists. | If the endpoint is unavailable, the daemon has not started successfully. |
 | Start Docker Desktop or the Docker Engine service, then retry. | Restores communication between the CLI and the daemon. |
+
+---
+
+## Scenario 4 — Container is running but the application is unhealthy
+
+| Investigation | Reason |
+|--------------|--------|
+| Does `docker ps` show the container as running? | Confirms the container lifecycle is healthy before investigating the application. |
+| Check `docker stats <container>`. | Identifies CPU, memory, network or I/O resource pressure. |
+| Check `docker top <container>`. | Verifies the expected application processes are running. |
+| Review `docker logs <container>`. | Identifies application startup failures or runtime errors. |
+| Use `docker exec -it <container> bash` for further investigation. | Allows inspection of the runtime environment without recreating the container. |
+| Use `docker inspect` if configuration verification is required. | Confirms metadata such as ports, environment variables, restart policy and mounts. |

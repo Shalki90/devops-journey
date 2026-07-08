@@ -35,7 +35,12 @@
 | `docker start <container>` | Start an existing stopped container. | Reuses the same container and Container ID. |
 | `docker restart <container>` | Restart an existing container. | Equivalent to stop followed by start. |
 | `docker rm <container>` | Remove a stopped container. | Running containers must be stopped before removal. |
-
+| `docker exec <container> <command>` | Execute a command inside a running container. | Creates a new process inside the existing container. |
+| `docker exec -it <container> bash` | Open an interactive Bash shell inside a running container. | Useful for live investigation and troubleshooting. |
+| `docker inspect <container>` | Display complete Docker metadata for a container. | Returns detailed JSON describing the container configuration and state. |
+| `docker inspect -f "<template>" <container>` | Display only the requested metadata field. | Uses Go template formatting to avoid printing the complete JSON output. |
+| `docker top <container>` | Display running processes inside a container. | Shows the container's process list from Docker. |
+| `docker stats <container>` | Display live resource utilisation. | Continuously streams CPU, memory, network, block I/O and process statistics until interrupted. |
 ---
 
 # Key Notes
@@ -50,3 +55,8 @@
 | Image Dependency | Docker prevents deleting an image while containers still reference it. |
 | Port Publishing | Maps a host port to a container port. |
 | Detached Mode | Returns control to the terminal while the container continues running. |
+| docker exec | Creates additional processes inside an already running container without creating a new container. |
+| docker inspect | Metadata inspection command used to examine Docker-managed configuration and state. |
+| docker top | Displays the processes currently running inside a container. |
+| docker stats | Live monitoring command for container resource utilisation. |
+| Investigation Workflow | Typical observation order: `docker ps` → `docker stats` → `docker top` → `docker inspect` → `docker logs`. |

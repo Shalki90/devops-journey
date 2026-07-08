@@ -25,7 +25,7 @@ This directory contains the knowledge base for Docker.
 | Topic | Status |
 |------|--------|
 | Docker Foundations | ✅ Completed (Conceptual) |
-| Hands-on | 🚧 In Progress (Core Runtime & Lifecycle Completed) |
+| Hands-on | ✅ Completed (Container Lifecycle, Runtime Interaction, Inspection & Monitoring) |
 | Docker Compose | ⏳ Pending |
 | Networking | ⏳ Pending |
 | Volumes | ⏳ Pending |
