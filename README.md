@@ -113,7 +113,6 @@ The repository is currently in the **structured migration phase**.
 * Governance layer: Completed (Version 1.0)
 * Metadata layer: Completed (Version 1.0)
 * Technical migration: Pending
-
 ---
 
 # Contribution Philosophy
