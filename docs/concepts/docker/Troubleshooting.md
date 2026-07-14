@@ -8,6 +8,10 @@
 | Disk usage grows | Writable layer increasing | Use volumes and remove unused containers |
 | Container affects itself | Resource exhaustion within cgroup | Investigate processes inside container |
 | Host under pressure | No resource limits configured | Apply CPU/Memory limits |
+| Container reports **Unhealthy** | HEALTHCHECK command failing | Verify the healthcheck command, application endpoint and exit codes |
+| Image rebuilds completely | Docker Build Cache invalidated | Review Dockerfile instruction order and build context |
+| Image unexpectedly grows in size | Large filesystem changes or poor Dockerfile ordering | Reduce unnecessary layers and optimize instruction order |
+| Container ignores graceful shutdown | Incorrect or unsupported stop signal | Verify `STOPSIGNAL` and application signal handling |
 
 ---
 
@@ -59,3 +63,50 @@
 | Review `docker logs <container>`. | Identifies application startup failures or runtime errors. |
 | Use `docker exec -it <container> bash` for further investigation. | Allows inspection of the runtime environment without recreating the container. |
 | Use `docker inspect` if configuration verification is required. | Confirms metadata such as ports, environment variables, restart policy and mounts. |
+
+---
+
+## Scenario 5 — Every image layer rebuilds unexpectedly
+
+| Investigation | Reason |
+|--------------|--------|
+| Was a file copied before dependency installation? | Early filesystem changes invalidate all downstream cache. |
+| Did the build context change? | Docker cache depends on instruction inputs as well as the instruction itself. |
+| Was the Dockerfile instruction modified? | Any change to an instruction invalidates its cached layer. |
+| Check Docker build output. | Confirms exactly where cache reuse stopped. |
+| Reorder Dockerfile instructions if appropriate. | Stable instructions should appear before frequently changing instructions. |
+
+---
+
+## Scenario 6 — HEALTHCHECK reports Unhealthy while the container is still running
+
+| Investigation | Reason |
+|--------------|--------|
+| Is the application process (PID 1) still running? | Running and healthy are different states. |
+| Execute the healthcheck command manually inside the container. | Confirms whether the command itself succeeds. |
+| Verify the application's health endpoint. | Confirms the application defines health correctly. |
+| Check the command's exit code. | Docker only evaluates success (`0`) or failure (non-zero). |
+| Review HEALTHCHECK configuration. | Incorrect intervals, retries or commands may produce false failures. |
+
+---
+
+## Scenario 7 — Container does not stop gracefully
+
+| Investigation | Reason |
+|--------------|--------|
+| Does the application handle Linux signals? | Docker only delivers the signal. The application performs the shutdown. |
+| Verify the configured `STOPSIGNAL`. | Confirms Docker is sending the expected signal. |
+| Check whether PID 1 is the application. | PID 1 receives the stop signal. |
+| Review application shutdown logs. | Confirms whether cleanup routines executed successfully. |
+| Verify child processes terminate correctly. | Prevents orphaned processes during shutdown. |
+
+---
+
+## Scenario 8 — Child image behaves unexpectedly during build
+
+| Investigation | Reason |
+|--------------|--------|
+| Is the parent image using `ONBUILD`? | Child builds automatically execute inherited ONBUILD instructions. |
+| Inspect the parent Dockerfile. | Confirms which ONBUILD instructions are registered. |
+| Review build logs. | Shows when inherited instructions are triggered. |
+| Verify whether inherited behaviour is intentional. | Determines whether ONBUILD is appropriate for the parent image. |

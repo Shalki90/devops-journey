@@ -1,6 +1,8 @@
 # Docker Cheatsheet
 
-| Cheatsheet.md | Frequently used Docker commands and quick reference |
+| Cheatsheet.md | Frequently used Docker commands, Dockerfile instructions and quick reference |
+|---------------|------------------------------------------------------------------------------|
+
 ---
 
 # Docker Information
@@ -17,6 +19,10 @@
 | Command | Purpose | Notes |
 |---------|---------|-------|
 | `docker images` | List all locally available images. | Shows images stored on the host. |
+| `docker image ls` | List local images. | Modern equivalent of `docker images`. |
+| `docker build -t <image-name>:<tag> .` | Build an image from a Dockerfile. | The `.` represents the build context. |
+| `docker history <image>` | Display image layer history. | Useful for understanding image construction. |
+| `docker image inspect <image>` | Display complete image metadata. | Returns image configuration and metadata in JSON format. |
 | `docker rmi <image>` | Remove an image. | Fails if any container still references the image. |
 
 ---
@@ -41,6 +47,29 @@
 | `docker inspect -f "<template>" <container>` | Display only the requested metadata field. | Uses Go template formatting to avoid printing the complete JSON output. |
 | `docker top <container>` | Display running processes inside a container. | Shows the container's process list from Docker. |
 | `docker stats <container>` | Display live resource utilisation. | Continuously streams CPU, memory, network, block I/O and process statistics until interrupted. |
+
+---
+
+# Dockerfile Instructions
+
+| Instruction | Category | Purpose |
+|------------|----------|---------|
+| `FROM` | Filesystem | Select the base image. |
+| `RUN` | Filesystem | Execute commands while building the image. |
+| `COPY` | Filesystem | Copy files into the image. |
+| `ADD` | Filesystem | Copy files with additional extraction/URL capabilities. |
+| `WORKDIR` | Metadata | Set the default working directory. |
+| `ENV` | Metadata | Define environment variables. |
+| `USER` | Metadata | Specify the default execution user. |
+| `LABEL` | Metadata | Attach descriptive metadata to the image. |
+| `EXPOSE` | Metadata | Document the application's listening port. |
+| `CMD` | Metadata | Specify the default runtime command. |
+| `ENTRYPOINT` | Metadata | Define the primary executable for the container. |
+| `HEALTHCHECK` | Metadata | Define how Docker determines container health. |
+| `SHELL` | Metadata | Change the shell used by shell-form instructions. |
+| `STOPSIGNAL` | Metadata | Define the signal Docker sends during graceful shutdown. |
+| `ONBUILD` | Metadata | Register instructions for child image builds. |
+
 ---
 
 # Key Notes
@@ -49,6 +78,11 @@
 |---------|---------|
 | Image | Immutable blueprint used to create containers. |
 | Container | Running instance of an image. |
+| Dockerfile | Declarative build specification used to create an image. |
+| Image Metadata | Runtime behaviour stored inside the image. |
+| Image Filesystem | Files physically stored inside the image layers. |
+| Temporary Build Container | Ephemeral container used by Docker while executing filesystem instructions during image builds. |
+| Build Cache | Docker reuses previously built layers when instructions and build context remain unchanged. |
 | Image Reuse | Multiple containers can be created from the same image. |
 | Stop vs Remove | Stopping a container does not delete it. |
 | Container Removal | Removing a container does not remove its image. |
@@ -60,3 +94,4 @@
 | docker top | Displays the processes currently running inside a container. |
 | docker stats | Live monitoring command for container resource utilisation. |
 | Investigation Workflow | Typical observation order: `docker ps` → `docker stats` → `docker top` → `docker inspect` → `docker logs`. |
+| Docker Build Workflow | `docker build` → Parse Dockerfile → Reuse cache if possible → Temporary build container → Commit layer → Destroy temporary container → Repeat until final image is produced. |

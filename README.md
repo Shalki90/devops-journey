@@ -1,6 +1,6 @@
 # DevOps Engineering Journey
 
-**Version:** 1.0
+**Version:** 1.0  
 **Status:** In Progress (Structured Migration Phase)
 
 ---
@@ -16,6 +16,7 @@ This repository is designed to function as:
 * A **structured knowledge system** built for scalability and clarity.
 
 This repository teaches engineering principles before tool usage while ensuring every technology is mastered to a practical, production-ready level.
+
 ---
 
 # Philosophy
@@ -35,19 +36,23 @@ This repository is built on core engineering documentation principles:
 
 The repository is organized into the following major sections:
 
-```text id="struct1"
+```text
 docs/
 ├── governance/        → Repository rules and standards
 ├── curriculum/        → Learning progression roadmap
 ├── concepts/          → Core DevOps technical knowledge
 ├── engineering/       → Engineering principles and mindset
 ├── ai/                → AI-assisted DevOps workflows and prompts
-├── labs/             → Hands-on practical exercises
-├── projects/         → End-to-end implementation projects
-├── references/       → External learning resources
-├── session-notes/     → Learning journey records
-├── assets/           → Supporting diagrams and media
-├── scripts/          → Automation and helper scripts
+├── interview/         → Interview preparation material
+├── troubleshooting/   → Troubleshooting knowledge base
+├── cheatsheets/       → Quick reference material
+├── labs/              → Hands-on practical exercises
+├── projects/          → End-to-end implementation projects
+├── references/        → External learning resources
+
+archive/               → Historical session notes and previous learning material
+assets/                → Supporting diagrams and media
+scripts/               → Automation and helper scripts
 ```
 
 ---
@@ -56,8 +61,8 @@ docs/
 
 The repository is governed by a dedicated documentation system:
 
-* `docs/governance/REPOSITORY_ARCHITECTURE.md`
-  Defines repository structure and design philosophy.
+* `docs/governance/Repository Standards.md`
+  Defines repository-wide engineering standards.
 
 * `docs/governance/DOCUMENTATION_STANDARDS.md`
   Defines writing standards and formatting rules.
@@ -66,13 +71,13 @@ The repository is governed by a dedicated documentation system:
   Defines where each type of knowledge belongs.
 
 * `docs/governance/MIGRATION_LOG.md`
-  Tracks migration progress and decisions.
+  Tracks repository migration progress and architectural decisions.
 
 ---
 
 # Learning Domains
 
-The repository covers the full DevOps ecosystem:
+The repository covers the complete DevOps ecosystem:
 
 * Internet & Networking
 * Git & Version Control
@@ -91,40 +96,74 @@ The repository covers the full DevOps ecosystem:
 
 # Information Model
 
-Knowledge in this repository is structured into:
+Knowledge is organized into dedicated documentation types:
 
 * **Concepts** → Core technical understanding
 * **Dictionary** → Terminology definitions
-* **Analogies** → Mental models for understanding
-* **Cheatsheets** → Quick reference commands
-* **Troubleshooting** → Real-world issue resolution
-* **Interview** → Preparation questions and answers
-* **Labs** → Hands-on implementation practice
-* **Projects** → End-to-end system builds
-* **Engineering Principles** → Cross-cutting design concepts
-* **AI in Practice** → AI-assisted workflows and prompts
+* **Analogies** → Mental models
+* **Cheatsheets** → Quick reference
+* **Troubleshooting** → Production issue resolution
+* **Interview** → Interview preparation
+* **Labs** → Hands-on implementation
+* **Projects** → End-to-end systems
+* **Engineering Principles** → Cross-cutting engineering concepts
+* **AI in Practice** → AI-assisted workflows
 
 ---
 
 # Migration Status
 
-The repository is currently in the **structured migration phase**.
+The repository is currently undergoing structured knowledge migration.
 
-* Governance layer: Completed (Version 1.0)
-* Metadata layer: Completed (Version 1.0)
-* Technical migration: Pending
+## Repository Foundation
+
+✔ Governance Architecture Complete
+
+✔ Documentation Standards Complete
+
+✔ Repository Structure Established
+
+## Technical Documentation
+
+### Completed
+
+* Internet & Networking
+* Git & Version Control
+* Linux Fundamentals
+* Docker Foundations
+* Docker Runtime
+* Docker Images & Dockerfile (Module 3)
+
+### In Progress
+
+* Docker Networking
+* Docker Volumes
+* Docker Compose
+
+### Upcoming
+
+* Kubernetes
+* Terraform
+* Ansible
+* CI/CD
+* Cloud Platforms
+* Monitoring & Observability
+* Security
+* Production Projects
+
 ---
 
 # Contribution Philosophy
 
-Even though this is a personal learning repository, it follows engineering-grade documentation standards:
+Although this is a personal engineering repository, it follows professional documentation practices.
 
-* No duplicate content
-* No unclear ownership
-* No incomplete files
-* No mixed responsibilities
+Every contribution should:
 
-Every addition must align with the governance system.
+* Maintain single responsibility.
+* Avoid duplicate information.
+* Follow repository governance.
+* Preserve long-term maintainability.
+* Improve clarity without sacrificing engineering accuracy.
 
 ---
 
@@ -132,18 +171,20 @@ Every addition must align with the governance system.
 
 This repository will be considered successful when:
 
-* All DevOps domains are fully documented.
-* Labs and projects demonstrate practical capability.
+* All DevOps learning domains are fully documented.
+* Labs and projects demonstrate production-ready capability.
 * Documentation is consistent and maintainable.
-* Navigation is intuitive without external guidance.
-* It serves both as a portfolio and a long-term engineering reference.
-
+* Navigation is intuitive.
+* The repository serves both as a professional portfolio and a long-term engineering handbook.
 
 ---
 
 # Related Documents
 
-* docs/governance/REPOSITORY_ARCHITECTURE.md
-* docs/governance/DOCUMENTATION_STANDARDS.md
-* docs/governance/CONTENT_OWNERSHIP_MATRIX.md
-* docs/governance/MIGRATION_LOG.md
+* `PROJECT_CONTEXT.md`
+* `ROADMAP.md`
+* `VERSION.md`
+* `docs/governance/Repository Standards.md`
+* `docs/governance/DOCUMENTATION_STANDARDS.md`
+* `docs/governance/CONTENT_OWNERSHIP_MATRIX.md`
+* `docs/governance/MIGRATION_LOG.md`

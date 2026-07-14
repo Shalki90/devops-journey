@@ -29,7 +29,7 @@ The migration aims to achieve the following goals:
 
 # Repository Evolution
 
-The repository has evolved through three major stages.
+The repository has evolved through four major stages.
 
 ```text
 Original Learning Repository
@@ -57,21 +57,21 @@ The current migration focuses on transforming the repository into a professional
 
 # Migration Status
 
-| Sprint    | Topic                              | Status       | Notes                                                      |
-| --------- | ---------------------------------- | ------------ | ---------------------------------------------------------- |
-| Sprint 0  | Repository Foundation & Governance | 🟢 Completed | Architecture, governance, repository standards established |
-| Sprint 1  | Internet & Networking              | 🟢 Completed | Documentation migrated and reorganized                     |
-| Sprint 2  | Git & Version Control              | 🟢 Completed | Documentation migrated and reorganized                     |
-| Sprint 3  | Linux Fundamentals                 | 🟢 Completed | Documentation migrated and reorganized                     |
-| Sprint 4  | Docker                             | ⬜ Pending    | Ready to begin                                             |
-| Sprint 5  | Kubernetes                         | ⬜ Pending    |                                                            |
-| Sprint 6  | Terraform                          | ⬜ Pending    |                                                            |
-| Sprint 7  | Ansible                            | ⬜ Pending    |                                                            |
-| Sprint 8  | CI/CD                              | ⬜ Pending    |                                                            |
-| Sprint 9  | Cloud Platforms                    | ⬜ Pending    |                                                            |
-| Sprint 10 | Monitoring & Observability         | ⬜ Pending    |                                                            |
-| Sprint 11 | Security Engineering               | ⬜ Pending    |                                                            |
-| Sprint 12 | Production Projects                | ⬜ Pending    |                                                            |
+| Sprint | Topic | Status | Notes |
+|---------|------|--------|------|
+| Sprint 0 | Repository Foundation & Governance | 🟢 Completed | Architecture, governance and repository standards established |
+| Sprint 1 | Internet & Networking | 🟢 Completed | Documentation migrated and reorganized |
+| Sprint 2 | Git & Version Control | 🟢 Completed | Documentation migrated and reorganized |
+| Sprint 3 | Linux Fundamentals | 🟢 Completed | Documentation migrated and reorganized |
+| Sprint 4 | Docker | 🟡 In Progress | Modules 1–3 completed. Networking, Volumes and Compose remaining. |
+| Sprint 5 | Kubernetes | ⬜ Pending | |
+| Sprint 6 | Terraform | ⬜ Pending | |
+| Sprint 7 | Ansible | ⬜ Pending | |
+| Sprint 8 | CI/CD | ⬜ Pending | |
+| Sprint 9 | Cloud Platforms | ⬜ Pending | |
+| Sprint 10 | Monitoring & Observability | ⬜ Pending | |
+| Sprint 11 | Security Engineering | ⬜ Pending | |
+| Sprint 12 | Production Projects | ⬜ Pending | |
 
 ---
 
@@ -125,19 +125,20 @@ This section records major architectural and governance decisions that shape the
 
 ## Decision Log
 
-| Decision                                                          | Reason                                             |
-| ----------------------------------------------------------------- | -------------------------------------------------- |
-| One responsibility per file                                       | Improve maintainability and navigation             |
-| One canonical location for every topic                            | Eliminate duplication                              |
-| Governance separated from technical documentation                 | Separation of concerns                             |
-| Architecture layer introduced                                     | Document repository design                         |
-| Sprint-based learning structure                                   | Progressive knowledge development                  |
-| ASCII diagrams preferred                                          | Git-friendly and maintainable                      |
-| Tables preferred where appropriate                                | Improve readability                                |
-| Every sprint follows a standard documentation structure           | Consistency across technologies                    |
-| Documentation treated as an engineering artifact                  | Improve long-term quality                          |
-| Session Notes are temporary                                       | Permanent knowledge belongs in canonical documents |
-| Repository organized for both learning and portfolio presentation | Dual-purpose design                                |
+| Decision | Reason |
+|----------|--------|
+| One responsibility per file | Improve maintainability and navigation |
+| One canonical location for every topic | Eliminate duplication |
+| Governance separated from technical documentation | Separation of concerns |
+| Architecture layer introduced | Document repository design |
+| Sprint-based learning structure | Progressive knowledge development |
+| Module-based progression within each sprint | Smaller learning milestones while preserving sprint continuity |
+| ASCII diagrams preferred | Git-friendly and maintainable |
+| Tables preferred where appropriate | Improve readability |
+| Every sprint follows a standard documentation structure | Consistency across technologies |
+| Documentation treated as an engineering artifact | Improve long-term quality |
+| Session Notes are temporary | Permanent knowledge belongs in canonical documents |
+| Repository organized for both learning and portfolio presentation | Dual-purpose design |
 
 Future architectural decisions should be appended to this table.
 
@@ -217,6 +218,60 @@ Linux documentation now follows the Version 1.x documentation model.
 
 ---
 
+## Sprint 4 – Docker
+
+### Objective
+
+Build a complete engineering understanding of Docker while migrating all permanent knowledge into the standardized repository structure.
+
+### Completed
+
+#### Module 1 — Docker Foundations
+
+* Docker engineering principles
+* Containers vs Virtual Machines
+* Docker architecture
+* Linux kernel sharing
+* Namespaces
+* cgroups
+
+#### Module 2 — Docker Runtime
+
+* Container lifecycle
+* Runtime architecture
+* Docker CLI → dockerd → containerd → runc
+* PID 1
+* Detached Mode
+* Port Publishing
+* Inspection & Monitoring
+* Hands-on Labs
+* Documentation completed
+
+#### Module 3 — Docker Images & Dockerfile
+
+* Image architecture
+* Image metadata
+* Filesystem layers
+* Layer reuse
+* Build cache
+* Dockerfile instruction classification
+* Docker image build pipeline
+* Engineering principles
+* Interview scenarios
+* Troubleshooting scenarios
+* Dictionary
+* Analogies
+* Cheatsheet
+* Documentation completed
+
+### Remaining
+
+* Module 4 — Docker Networking
+* Module 5 — Docker Volumes
+* Module 6 — Docker Compose
+
+---
+
 ## Remaining Sprints
 
 Future sprint summaries will be added upon completion.
@@ -259,12 +314,12 @@ These improvements should enhance the repository without changing its architectu
 
 # Related Documents
 
-| Document                      | Purpose                                   |
-| ----------------------------- | ----------------------------------------- |
-| Repository Architecture.md    | Repository structure                      |
-| Documentation Architecture.md | Documentation organization                |
-| Repository Standards.md       | Repository-wide standards                 |
-| Documentation Standards.md    | Documentation quality guidelines          |
-| Content Ownership Matrix.md   | Canonical ownership of repository content |
-| Engineering Charter.md        | Engineering philosophy                    |
-| Versioning Policy.md          | Versioning strategy                       |
+| Document | Purpose |
+|----------|---------|
+| Repository Architecture.md | Repository structure |
+| Documentation Architecture.md | Documentation organization |
+| Repository Standards.md | Repository-wide standards |
+| Documentation Standards.md | Documentation quality guidelines |
+| Content Ownership Matrix.md | Canonical ownership of repository content |
+| Engineering Charter.md | Engineering philosophy |
+| Versioning Policy.md | Versioning strategy |

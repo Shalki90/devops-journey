@@ -1,6 +1,6 @@
 # Docker
 
-**Document Version:** 1.0
+**Document Version:** 1.1
 
 ---
 
@@ -16,16 +16,17 @@ This directory contains the knowledge base for Docker.
 | Analogies.md | Intuitive analogies for Docker concepts |
 | Interview.md | Interview preparation questions |
 | Troubleshooting.md | Common problems and diagnostic thinking |
-| Cheatsheet.md | Frequently used commands (to be populated during hands-on) |
+| Cheatsheet.md | Frequently used commands and Dockerfile reference |
 
 ---
 
 ## Current Coverage
 
-| Topic | Status |
-|------|--------|
-| Docker Foundations | ✅ Completed (Conceptual) |
-| Hands-on | ✅ Completed (Container Lifecycle, Runtime Interaction, Inspection & Monitoring) |
-| Docker Compose | ⏳ Pending |
-| Networking | ⏳ Pending |
-| Volumes | ⏳ Pending |
+| Module | Coverage | Status |
+|---------|----------|--------|
+| Module 1 | Docker Foundations | ✅ Completed |
+| Module 2 | Docker Runtime & Hands-on (Container Lifecycle, Runtime Interaction, Inspection & Monitoring) | ✅ Completed |
+| Module 3 | Docker Images & Dockerfile Engineering | ✅ Completed |
+| Module 4 | Docker Storage (Volumes & Bind Mounts) | ⏳ Pending |
+| Module 5 | Docker Networking | ⏳ Pending |
+| Module 6 | Docker Compose | ⏳ Pending |
